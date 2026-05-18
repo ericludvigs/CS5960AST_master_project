@@ -1,0 +1,174 @@
+Thu Mar 26 23:02:18 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           Off |   00000000:02:00.0 Off |                    0 |
+| N/A   34C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla P100-PCIE-16GB           Off |   00000000:82:00.0 Off |                    0 |
+| N/A   34C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Distributed training enabled, local rank: 0, local world size: 2Additional process, local rank: 1, local world size: 2
+
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | - Workstation/desktop environment set, using workstation config -
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | Using settings: workstation_config
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | AST job id: 0fa55f72-97ec-4c5e-80b2-eba0fb5a444b
+PyTorch device: cuda:1, on process 1
+Process 1, sees 2 GPUs, has set PyTorch device: cuda:1
+PyTorch device: cuda:0, on process 0
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | 
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | ------------------------------------------
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | Torch version: 2.9.1+cu126
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | CUDA version: 12.6
+2026-03-26T23:02:23+0100 - cs_5960_ast - INFO     | Number of available accelerators (GPUs) for process 0: 2
+Process 0, sees 2 GPUs, has set PyTorch device: cuda:0
+Accelerator info from process 1
+| Accelerator 1: Tesla P100-PCIE-16GB
+| Total memory: 15.89 GB
+| Allocated: 0.00 GB
+| Reserved: 0.00 GB
+| Free/total memory: 15.64 GB / 15.89 GB
+| Memory Utilization: 1.59%
+
+Accelerator info from process 0
+| Accelerator 0: Tesla P100-PCIE-16GB
+| Total memory: 15.89 GB
+| Allocated: 0.00 GB
+| Reserved: 0.00 GB
+| Free/total memory: 15.64 GB / 15.89 GB
+| Memory Utilization: 1.59%
+
+2026-03-26T23:02:24+0100 - cs_5960_ast - INFO     | ------------------------------------------
+
+2026-03-26T23:02:27+0100 - cs_5960_ast.model - INFO     | Starting epoch: 1
+2026-03-26T23:30:16+0100 - cs_5960_ast.model - INFO     | Starting epoch: 2
+2026-03-26T23:55:47+0100 - cs_5960_ast.model - INFO     | Starting epoch: 3
+2026-03-27T00:21:18+0100 - cs_5960_ast.model - INFO     | Starting epoch: 4
+2026-03-27T00:46:49+0100 - cs_5960_ast.model - INFO     | Starting epoch: 5
+2026-03-27T01:12:19+0100 - cs_5960_ast.model - INFO     | Starting epoch: 6
+2026-03-27T01:37:49+0100 - cs_5960_ast.model - INFO     | Starting epoch: 7
+2026-03-27T02:03:18+0100 - cs_5960_ast.model - INFO     | Starting epoch: 8
+2026-03-27T02:28:47+0100 - cs_5960_ast.model - INFO     | Starting epoch: 9
+2026-03-27T02:54:17+0100 - cs_5960_ast.model - INFO     | Starting epoch: 10
+2026-03-27T03:19:47+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 10
+2026-03-27T03:19:47+0100 - cs_5960_ast.model - INFO     | Starting epoch: 11
+2026-03-27T03:45:16+0100 - cs_5960_ast.model - INFO     | Starting epoch: 12
+2026-03-27T04:10:44+0100 - cs_5960_ast.model - INFO     | Starting epoch: 13
+2026-03-27T04:36:13+0100 - cs_5960_ast.model - INFO     | Starting epoch: 14
+2026-03-27T05:01:42+0100 - cs_5960_ast.model - INFO     | Starting epoch: 15
+2026-03-27T05:27:11+0100 - cs_5960_ast.model - INFO     | Starting epoch: 16
+2026-03-27T05:52:40+0100 - cs_5960_ast.model - INFO     | Starting epoch: 17
+2026-03-27T06:18:10+0100 - cs_5960_ast.model - INFO     | Starting epoch: 18
+2026-03-27T06:43:40+0100 - cs_5960_ast.model - INFO     | Starting epoch: 19
+2026-03-27T07:09:12+0100 - cs_5960_ast.model - INFO     | Starting epoch: 20
+2026-03-27T07:34:45+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 20
+2026-03-27T07:34:45+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: -68.0269%
+2026-03-27T07:34:45+0100 - cs_5960_ast.model - INFO     | Starting epoch: 21
+2026-03-27T08:00:20+0100 - cs_5960_ast.model - INFO     | Starting epoch: 22
+2026-03-27T08:25:52+0100 - cs_5960_ast.model - INFO     | Starting epoch: 23
+2026-03-27T08:51:25+0100 - cs_5960_ast.model - INFO     | Starting epoch: 24
+2026-03-27T09:16:58+0100 - cs_5960_ast.model - INFO     | Starting epoch: 25
+2026-03-27T09:42:33+0100 - cs_5960_ast.model - INFO     | Starting epoch: 26
+2026-03-27T10:08:09+0100 - cs_5960_ast.model - INFO     | Starting epoch: 27
+2026-03-27T10:33:45+0100 - cs_5960_ast.model - INFO     | Starting epoch: 28
+2026-03-27T10:59:18+0100 - cs_5960_ast.model - INFO     | Starting epoch: 29
+2026-03-27T11:24:51+0100 - cs_5960_ast.model - INFO     | Starting epoch: 30
+2026-03-27T11:50:26+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 30
+2026-03-27T11:50:26+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: -2.0892%
+2026-03-27T11:50:26+0100 - cs_5960_ast.model - INFO     | Starting epoch: 31
+2026-03-27T12:16:01+0100 - cs_5960_ast.model - INFO     | Starting epoch: 32
+2026-03-27T12:41:36+0100 - cs_5960_ast.model - INFO     | Starting epoch: 33
+2026-03-27T13:07:12+0100 - cs_5960_ast.model - INFO     | Starting epoch: 34
+2026-03-27T13:32:47+0100 - cs_5960_ast.model - INFO     | Starting epoch: 35
+2026-03-27T13:58:23+0100 - cs_5960_ast.model - INFO     | Starting epoch: 36
+2026-03-27T14:23:58+0100 - cs_5960_ast.model - INFO     | Starting epoch: 37
+2026-03-27T14:49:34+0100 - cs_5960_ast.model - INFO     | Starting epoch: 38
+2026-03-27T15:15:09+0100 - cs_5960_ast.model - INFO     | Starting epoch: 39
+2026-03-27T15:40:46+0100 - cs_5960_ast.model - INFO     | Starting epoch: 40
+2026-03-27T16:06:22+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 40
+2026-03-27T16:06:22+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: -4.4519%
+2026-03-27T16:06:22+0100 - cs_5960_ast.model - INFO     | Starting epoch: 41
+2026-03-27T16:31:58+0100 - cs_5960_ast.model - INFO     | Starting epoch: 42
+2026-03-27T16:57:35+0100 - cs_5960_ast.model - INFO     | Starting epoch: 43
+2026-03-27T17:23:11+0100 - cs_5960_ast.model - INFO     | Starting epoch: 44
+2026-03-27T17:48:48+0100 - cs_5960_ast.model - INFO     | Starting epoch: 45
+2026-03-27T18:14:26+0100 - cs_5960_ast.model - INFO     | Starting epoch: 46
+2026-03-27T18:40:04+0100 - cs_5960_ast.model - INFO     | Starting epoch: 47
+2026-03-27T19:05:43+0100 - cs_5960_ast.model - INFO     | Starting epoch: 48
+2026-03-27T19:31:19+0100 - cs_5960_ast.model - INFO     | Starting epoch: 49
+2026-03-27T19:56:57+0100 - cs_5960_ast.model - INFO     | Starting epoch: 50
+2026-03-27T20:22:34+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 50
+2026-03-27T20:22:35+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: +2.0317%
+2026-03-27T20:22:36+0100 - cs_5960_ast - INFO     | Total training time: 21:20:09.648026
+2026-03-27T20:22:36+0100 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator G: 4.4e6
+2026-03-27T20:22:36+0100 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator GE: 4.4e6
+2026-03-27T20:22:36+0100 - cs_5960_ast.model - INFO     | Estimate of parameters in Discriminator: 1.4e6
+2026-03-27T20:22:36+0100 - cs_5960_ast - WARNING  | 
+            Warning: test dataloader has more than one entry (8);
+            this works with DIFFERENT datasets and only one crop per field;
+            but is NOT supported with multiple crops per same field.
+
+            Multiple crops per field will result in overwriting each others plots, and only the last will be kept.
+
+            Field results from different simulations will be properly saved.
+
+            For the test set, use `crop=None` to pass an entire field at once.
+
+            Process: 0
+            
+2026-03-27T20:25:33+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:26:38+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:26:38+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:04.918743
+2026-03-27T20:29:36+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:30:38+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:30:38+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:02.008497
+2026-03-27T20:33:40+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:34:46+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:34:46+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:05.236788
+2026-03-27T20:37:43+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:38:48+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:38:48+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:05.603394
+2026-03-27T20:41:46+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:42:51+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:42:51+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:05.271208
+2026-03-27T20:45:47+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:46:52+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:46:52+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:04.992398
+2026-03-27T20:49:54+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:50:59+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:50:59+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:05.189436
+2026-03-27T20:53:59+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:04.924698
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | Summary of memory use in program:
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | Accelerator: Tesla P100-PCIE-16GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Total memory: 15.89 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak allocated memory: 10.60 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak reserved memory: 10.94 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak used/total memory: 10.94 GB / 15.89 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak memory utilization: 68.88%
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Current used/total memory: 3.23 GB / 15.89 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Current memory utilization: 20.35%
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | Accelerator: Tesla P100-PCIE-16GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Total memory: 15.89 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 15.89 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 15.89 GB
+2026-03-27T20:55:04+0100 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-03-27T20:55:21+0100 - cs_5960_ast - INFO     | Run complete.

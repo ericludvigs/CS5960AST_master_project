@@ -1,0 +1,42 @@
+Resolved 195 packages in 1ms
+Audited 185 packages in 0.43ms
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_inductor/lowering.py:1988: UserWarning: Torchinductor does not support code generation for complex operators. Performance may be worse than eager.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_inductor/lowering.py:1988: UserWarning: Torchinductor does not support code generation for complex operators. Performance may be worse than eager.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_inductor/lowering.py:1988: UserWarning: Torchinductor does not support code generation for complex operators. Performance may be worse than eager.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_inductor/lowering.py:1988: UserWarning: Torchinductor does not support code generation for complex operators. Performance may be worse than eager.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_inductor/lowering.py:1988: UserWarning: Torchinductor does not support code generation for complex operators. Performance may be worse than eager.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/.venv/lib/python3.13/site-packages/torch/_dynamo/variables/higher_order_ops.py:1311: UserWarning: Pred is a Python constant. When used with torch.cond, it specializes on one of the branches. If you want torch.cond to preserve two branches, please make the predicate a boolean tensor or a SymBool.
+  warnings.warn(
+/fp/projects01/ec12/ec-ericlu/CS5960AST/src/cs_5960_ast/model_code/model_main.py:1034: RuntimeWarning: More than 65 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(ncols=4, nrows=2, figsize=(self.figwidth * 4, self.figheight * 2))
+/fp/projects01/ec12/ec-ericlu/CS5960AST/src/cs_5960_ast/model_code/model_main.py:1034: RuntimeWarning: More than 65 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(ncols=4, nrows=2, figsize=(self.figwidth * 4, self.figheight * 2))
+/fp/projects01/ec12/ec-ericlu/CS5960AST/src/cs_5960_ast/model_code/model_main.py:1034: RuntimeWarning: More than 65 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(ncols=4, nrows=2, figsize=(self.figwidth * 4, self.figheight * 2))
+/fp/projects01/ec12/ec-ericlu/CS5960AST/src/cs_5960_ast/model_code/model_main.py:1034: RuntimeWarning: More than 65 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(ncols=4, nrows=2, figsize=(self.figwidth * 4, self.figheight * 2))
+/fp/projects01/ec12/ec-ericlu/CS5960AST/src/cs_5960_ast/model_code/model_main.py:1034: RuntimeWarning: More than 65 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(ncols=4, nrows=2, figsize=(self.figwidth * 4, self.figheight * 2))

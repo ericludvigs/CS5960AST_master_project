@@ -1,0 +1,122 @@
+Wed May 13 02:49:57 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           Off |   00000000:02:00.0 Off |                    0 |
+| N/A   33C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla P100-PCIE-16GB           Off |   00000000:82:00.0 Off |                    0 |
+| N/A   33C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Distributed training enabled, local rank: 0, local world size: 2Additional process, local rank: 1, local world size: 2
+
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | - Workstation/desktop environment set, using workstation config -
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | Using settings: workstation_config
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | AST job id: inference_3468780_smudgy_GAN
+PyTorch device: cuda:1, on process 1
+Process 1, sees 2 GPUs, has set PyTorch device: cuda:1
+PyTorch device: cuda:0, on process 0
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | 
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | ------------------------------------------
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | Torch version: 2.9.1+cu126
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | CUDA version: 12.6
+2026-05-13T02:50:03+0200 - cs_5960_ast - INFO     | Number of accelerators (GPUs) processes should have visible: 2
+Process 0, sees 2 GPUs, has set PyTorch device: cuda:0
+The properties of device 1 for process 1 is: 
+    _CudaDeviceProperties(name='Tesla P100-PCIE-16GB', major=6, minor=0, total_memory=16269MB, multi_processor_count=56, uuid=8c858320-7f89-b927-4c81-6c608a455b78, pci_bus_id=130, pci_device_id=0, pci_domain_id=0, L2_cache_size=4MB)
+The properties of device 0 for process 0 is: 
+    _CudaDeviceProperties(name='Tesla P100-PCIE-16GB', major=6, minor=0, total_memory=16269MB, multi_processor_count=56, uuid=c1cd9136-7359-043a-f295-793304e61179, pci_bus_id=2, pci_device_id=0, pci_domain_id=0, L2_cache_size=4MB)
+Accelerator info from process 1
+| Accelerator 1: Tesla P100-PCIE-16GB
+| Total memory: 15.89 GB
+| Allocated: 0.00 GB
+| Reserved: 0.00 GB
+| Free/total memory: 15.64 GB / 15.89 GB
+| Memory Utilization: 1.59%
+
+Accelerator info from process 0
+| Accelerator 0: Tesla P100-PCIE-16GB
+| Total memory: 15.89 GB
+| Allocated: 0.00 GB
+| Reserved: 0.00 GB
+| Free/total memory: 15.64 GB / 15.89 GB
+| Memory Utilization: 1.59%
+
+2026-05-13T02:50:04+0200 - cs_5960_ast - INFO     | ------------------------------------------
+
+2026-05-13T02:50:09+0200 - cs_5960_ast - INFO     | Model state at epoch 161, step 139521 loaded from file.
+2026-05-13T02:50:09+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator G: 4.3e6
+2026-05-13T02:50:09+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator GE: 4.3e6
+2026-05-13T02:50:09+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Discriminator: 1.4e6
+2026-05-13T02:50:09+0200 - cs_5960_ast - WARNING  | 
+            Warning: test dataloader has more than one entry (9);
+            this works with DIFFERENT datasets and only one crop per field;
+            but is NOT supported with multiple crops per same field.
+
+            Multiple crops per field will result in overwriting each others plots, and only the last will be kept.
+
+            Field results from different simulations will be properly saved.
+
+            For the test set, use `crop=None` to pass an entire field at once.
+
+            Process: 0
+            
+2026-05-13T02:55:05+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T02:57:09+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T02:57:09+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:03.646155
+2026-05-13T03:01:21+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:03:25+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:03:25+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:04.318557
+2026-05-13T03:07:31+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:09:35+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:09:35+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:04.094536
+2026-05-13T03:13:35+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:15:36+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:15:36+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:01.340583
+2026-05-13T03:19:36+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:21:41+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:21:41+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:04.220503
+2026-05-13T03:25:42+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:27:42+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:27:42+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:59.666048
+2026-05-13T03:31:44+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:33:47+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:33:47+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:03.386916
+2026-05-13T03:37:42+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:39:46+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:39:46+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:03.602140
+2026-05-13T03:43:46+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:01:59.529848
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | Summary of memory use in program:
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | Accelerator: Tesla P100-PCIE-16GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Total memory: 15.89 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 4.13 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 6.04 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 6.04 GB / 15.89 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 38.05%
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Current used/total memory: 6.04 GB / 15.89 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Current memory utilization: 38.05%
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | Accelerator: Tesla P100-PCIE-16GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Total memory: 15.89 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 15.89 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 15.89 GB
+2026-05-13T03:45:45+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-13T03:46:57+0200 - cs_5960_ast - INFO     | Run complete.

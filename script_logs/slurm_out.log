@@ -1,0 +1,1652 @@
+Starting job 2907821 on gpu-7 on Fox at Sun Jan 25 00:03:11 CET 2026
+
+
+Job 2907821 consumed 0.0 billing hours from project ec12.
+
+Submitted 2026-01-23T16:06:41; waited 1.3 days in the queue after becoming eligible to run.
+
+Requested wallclock time: 60.0 minutes
+Elapsed wallclock time:   2.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2907821          16            0.0 %  2026-01-25T00:03:11    2.0 s  1
+2907821.batch    16      1     0.1 %  2026-01-25T00:03:11    2.0 s  1
+
+Used CPU time:   0.0 CPU seconds
+Unused CPU time: 32.0 CPU seconds
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2907821          32.0        
+2907821.batch    32.0     0.0
+
+Job 2907821 completed at Sun Jan 25 00:03:13 CET 2026
+Starting job 2912260 on gpu-11 on Fox at Mon Jan 26 19:58:01 CET 2026
+
+
+Job 2912260 consumed 0.5 billing hours from project ec12.
+
+Submitted 2026-01-25T12:17:42; waited 1.3 days in the queue after becoming eligible to run.
+
+Requested wallclock time: 10.0 minutes
+Elapsed wallclock time:   24.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2912260          16            0.0 %  2026-01-26T19:58:01   24.0 s  1
+2912260.batch    16      1     0.8 %  2026-01-26T19:58:01   24.0 s  1
+2912260.uv       16      4     0.0 %  2026-01-26T19:58:06   19.0 s  1
+
+Used CPU time:   3.1 CPU seconds
+Unused CPU time: 6.3 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2912260          32.0        
+2912260.batch    32.0     0.3
+2912260.uv       32.0     1.5
+
+Job 2912260 completed at Mon Jan 26 19:58:25 CET 2026
+Starting job 2924256 on gpu-7 on Fox at Wed Jan 28 00:04:09 CET 2026
+
+
+Job 2924256 consumed 13.7 billing hours from project ec12.
+
+Submitted 2026-01-27T14:31:10; waited 9.5 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   10.6 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2924256          16            0.0 %  2026-01-28T00:04:09  633.0 s  1
+2924256.batch    16      1     0.0 %  2026-01-28T00:04:09  633.0 s  1
+2924256.uv       16      4     0.0 %  2026-01-28T00:04:13  629.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 2.8 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2924256          32.0        
+2924256.batch    32.0     0.0
+2924256.uv       32.0     1.6
+
+Job 2924256 completed at Wed Jan 28 00:14:42 CET 2026
+Starting job 2948712 on gpu-7 on Fox at Thu Jan 29 01:05:06 CET 2026
+
+
+Job 2948712 consumed 1.3 billing hours from project ec12.
+
+Submitted 2026-01-29T01:04:42; waited 24.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   58.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2948712          16            0.0 %  2026-01-29T01:05:06   58.0 s  1
+2948712.batch    16      1     0.4 %  2026-01-29T01:05:06   58.0 s  1
+2948712.uv       16      4     0.0 %  2026-01-29T01:05:17   47.0 s  1
+
+Used CPU time:   3.5 CPU seconds
+Unused CPU time: 15.4 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2948712          32.0        
+2948712.batch    32.0     0.2
+2948712.uv       32.0     2.8
+
+Job 2948712 completed at Thu Jan 29 01:06:04 CET 2026
+Starting job 2949842 on gpu-7 on Fox at Fri Jan 30 01:42:36 CET 2026
+
+
+Job 2949842 consumed 0.9 billing hours from project ec12.
+
+Submitted 2026-01-29T09:51:32; waited 15.9 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   42.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2949842          16            0.0 %  2026-01-30T01:42:36   42.0 s  1
+2949842.batch    16      1     0.4 %  2026-01-30T01:42:36   42.0 s  1
+2949842.uv       16      4     0.0 %  2026-01-30T01:42:40   38.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 11.2 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2949842          32.0        
+2949842.batch    32.0     0.0
+2949842.uv       32.0     2.7
+
+Job 2949842 completed at Fri Jan 30 01:43:19 CET 2026
+Starting job 2969811 on gpu-7 on Fox at Sat Jan 31 00:05:55 CET 2026
+
+
+Job 2969811 consumed 0.7 billing hours from project ec12.
+
+Submitted 2026-01-30T17:39:33; waited 6.4 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   30.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2969811          16            0.0 %  2026-01-31T00:05:55   30.0 s  1
+2969811.batch    16      1     0.6 %  2026-01-31T00:05:55   30.0 s  1
+2969811.uv       16      4     0.0 %  2026-01-31T00:06:03   22.0 s  1
+
+Used CPU time:   3.1 CPU seconds
+Unused CPU time: 7.9 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2969811          32.0        
+2969811.batch    32.0     0.2
+2969811.uv       32.0     1.4
+
+Job 2969811 completed at Sat Jan 31 00:06:25 CET 2026
+Starting job 2972827 on gpu-14 on Fox at Sun Feb 1 22:28:58 CET 2026
+
+
+Job 2972827 consumed 13.7 billing hours from project ec12.
+
+Submitted 2026-02-01T09:11:17; waited 13.3 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   10.6 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2972827          16            0.0 %  2026-02-01T22:28:58  633.0 s  1
+2972827.batch    16      1     0.0 %  2026-02-01T22:28:58  633.0 s  1
+2972827.uv       16      4     0.0 %  2026-02-01T22:29:02  629.0 s  1
+
+Used CPU time:   2.7 CPU seconds
+Unused CPU time: 2.8 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2972827          32.0        
+2972827.batch    32.0     0.0
+2972827.uv       32.0     1.5
+
+Job 2972827 completed at Sun Feb 1 22:39:31 CET 2026
+Starting job 2977602 on gpu-7 on Fox at Wed Feb 4 05:39:03 CET 2026
+
+
+Job 2977602 consumed 0.9 billing hours from project ec12.
+
+Submitted 2026-02-03T16:31:23; waited 13.1 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   41.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2977602          16            0.0 %  2026-02-04T05:39:02   41.0 s  1
+2977602.batch    16      1     0.4 %  2026-02-04T05:39:02   41.0 s  1
+2977602.uv       16      4     0.0 %  2026-02-04T05:39:07   36.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 10.9 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2977602          32.0        
+2977602.batch    32.0     0.0
+2977602.uv       32.0     2.7
+
+Job 2977602 completed at Wed Feb 4 05:39:43 CET 2026
+Starting job 2979918 on gpu-7 on Fox at Thu Feb 5 00:00:40 CET 2026
+
+
+Job 2979918 consumed 3.6 billing hours from project ec12.
+
+Submitted 2026-02-04T12:17:14; waited 11.7 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   2.8 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2979918          16            0.0 %  2026-02-05T00:00:39  168.0 s  1
+2979918.batch    16      1     0.1 %  2026-02-05T00:00:39  168.0 s  1
+2979918.uv       16      4     0.0 %  2026-02-05T00:00:43  164.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 44.8 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2979918          32.0        
+2979918.batch    32.0     0.0
+2979918.uv       32.0     2.7
+
+Job 2979918 completed at Thu Feb 5 00:03:27 CET 2026
+Starting job 2981942 on gpu-7 on Fox at Fri Feb 6 00:19:57 CET 2026
+
+
+Job 2981942 consumed 1.2 billing hours from project ec12.
+
+Submitted 2026-02-05T11:47:40; waited 12.5 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   56.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2981942          16            0.0 %  2026-02-06T00:19:57   56.0 s  1
+2981942.batch    16      1     0.5 %  2026-02-06T00:19:57   56.0 s  1
+2981942.uv       16      4     0.0 %  2026-02-06T00:20:13   40.0 s  1
+
+Used CPU time:   4.9 CPU seconds
+Unused CPU time: 14.9 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2981942          32.0        
+2981942.batch    32.0     0.4
+2981942.uv       32.0     2.8
+
+Job 2981942 completed at Fri Feb 6 00:20:53 CET 2026
+Starting job 2987361 on gpu-14 on Fox at Fri Feb 6 23:51:04 CET 2026
+
+
+Job 2987361 consumed 13.5 billing hours from project ec12.
+
+Submitted 2026-02-06T15:11:39; waited 8.7 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   10.4 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2987361          16            0.0 %  2026-02-06T23:51:04  625.0 s  1
+2987361.batch    16      1     0.0 %  2026-02-06T23:51:04  625.0 s  1
+2987361.echo     16      4     0.0 %  2026-02-06T23:51:08    0.0 s  0
+2987361.uv       16      4     0.0 %  2026-02-06T23:51:09  620.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 2.8 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2987361          32.0        
+2987361.batch    32.0     0.0
+2987361.echo     32.0     0.0
+2987361.uv       32.0     1.8
+
+Job 2987361 completed at Sat Feb 7 00:01:29 CET 2026
+Starting job 2988349 on gpu-15 on Fox at Sun Feb 8 05:18:44 CET 2026
+
+
+Job 2988349 consumed 16.9 billing hours from project ec12.
+
+Submitted 2026-02-07T12:07:19; waited 17.2 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   13.0 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2988349          16            0.0 %  2026-02-08T05:18:44  781.0 s  0
+2988349.batch    16      1     0.0 %  2026-02-08T05:18:44  781.0 s  0
+2988349.uv       16      4     0.0 %  2026-02-08T05:18:49  776.0 s  0
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 3.5 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2988349          32.0        
+2988349.batch    32.0     0.0
+2988349.uv       32.0    17.2
+
+Job 2988349 completed at Sun Feb 8 05:31:46 CET 2026
+Starting job 2990280 on gpu-15 on Fox at Mon Feb 9 00:01:04 CET 2026
+
+
+Job 2990280 consumed 0.7 billing hours from project ec12.
+
+Submitted 2026-02-08T18:31:06; waited 5.5 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   31.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2990280          64            0.0 %  2026-02-09T00:01:03   31.0 s  1
+2990280.batch    64      1     0.1 %  2026-02-09T00:01:03   31.0 s  1
+2990280.uv       64      4     0.0 %  2026-02-09T00:01:08   26.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 33.0 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2990280          64.0        
+2990280.batch    64.0     0.0
+2990280.uv       64.0     1.6
+
+Job 2990280 completed at Mon Feb 9 00:01:34 CET 2026
+Starting job 2991710 on gpu-7 on Fox at Mon Feb 9 23:59:16 CET 2026
+
+
+Job 2991710 consumed 19.1 billing hours from project ec12.
+
+Submitted 2026-02-09T10:35:13; waited 13.4 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   14.7 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+2991710          64            0.0 %  2026-02-09T23:59:16  883.0 s  0
+2991710.batch    64      1     0.0 %  2026-02-09T23:59:16  883.0 s  0
+2991710.uv       64      4     0.0 %  2026-02-09T23:59:20  879.0 s  0
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 15.7 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+2991710          64.0        
+2991710.batch    64.0     0.0
+2991710.uv       64.0    18.7
+
+Job 2991710 completed at Tue Feb 10 00:13:59 CET 2026
+Starting job 3006536 on gpu-7 on Fox at Thu Feb 12 04:31:38 CET 2026
+
+
+Job 3006536 consumed 156.6 billing hours from project ec12.
+
+Submitted 2026-02-12T04:18:55; waited 12.7 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   2.0 hours
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3006536          64            0.0 %  2026-02-12T04:31:38    2.0 h  0
+3006536.batch    64      1     0.0 %  2026-02-12T04:31:38    2.0 h  Signal 15
+3006536.uv       64      4     0.0 %  2026-02-12T04:31:43    2.0 h  143 (command killed by signal 15)
+
+Used CPU time:   3.0 CPU seconds
+Unused CPU time: 5.4 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3006536          64.0        
+3006536.batch    64.0     0.0
+3006536.uv       64.0    80.2
+
+Job 3006536 completed at Thu Feb 12 06:32:14 CET 2026
+Starting job 3007532 on gpu-14 on Fox at Sat Feb 14 04:02:47 CET 2026
+
+
+Job 3007532 consumed 13.7 billing hours from project ec12.
+
+Submitted 2026-02-12T11:05:47; waited 1.7 days in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 hours
+Elapsed wallclock time:   10.5 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3007532          64            0.0 %  2026-02-14T04:02:46  632.0 s  1
+3007532.batch    64      1     0.0 %  2026-02-14T04:02:46  632.0 s  1
+3007532.uv       64      4     0.0 %  2026-02-14T04:02:52  626.0 s  1
+
+Used CPU time:   2.7 CPU seconds
+Unused CPU time: 11.2 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3007532          64.0        
+3007532.batch    64.0     0.0
+3007532.uv       64.0     1.6
+
+Job 3007532 completed at Sat Feb 14 04:13:18 CET 2026
+Starting job 3016304 on gpu-7 on Fox at Sun Feb 15 10:04:26 CET 2026
+
+
+Job 3016304 consumed 376.2 billing hours from project ec12.
+
+Submitted 2026-02-14T09:42:33; waited 1.0 days in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 hours
+Elapsed wallclock time:   4.8 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3016304          64            0.0 %  2026-02-15T10:04:26    4.8 h  1
+3016304.batch    64      1     0.0 %  2026-02-15T10:04:26    4.8 h  1
+3016304.uv       64      4     0.0 %  2026-02-15T10:05:35    4.8 h  1
+
+Used CPU time:   3.1 CPU seconds
+Unused CPU time: 12.9 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3016304          64.0        
+3016304.batch    64.0     0.0
+3016304.uv       64.0    83.2
+
+Job 3016304 completed at Sun Feb 15 14:53:48 CET 2026
+Starting job 3075629 on gpu-2 on Fox at Wed Mar 4 19:50:18 CET 2026
+
+
+Job 3075629 consumed 546.6 billing hours from project ec12.
+
+Submitted 2026-03-04T02:11:30; waited 17.6 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 hours
+Elapsed wallclock time:   7.0 hours
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3075629          64            0.0 %  2026-03-04T19:50:17    7.0 h  0
+3075629.batch    64      1     0.0 %  2026-03-04T19:50:17    7.0 h  Signal 15
+3075629.uv       64      4     0.0 %  2026-03-04T19:50:22    7.0 h  143 (command killed by signal 15)
+
+Used CPU time:   6.9 CPU seconds
+Unused CPU time: 18.7 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3075629          64.0        
+3075629.batch    64.0     0.0
+3075629.uv       64.0    87.4
+
+Job 3075629 completed at Thu Mar 5 02:50:52 CET 2026
+Starting job 3092146 on gpu-12 on Fox at Fri Mar 6 20:47:24 CET 2026
+
+
+Job 3092146 consumed 624.6 billing hours from project ec12.
+
+Submitted 2026-03-06T12:30:18; waited 8.3 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 8.0 hours
+Elapsed wallclock time:   8.0 hours
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3092146          64            0.0 %  2026-03-06T20:47:23    8.0 h  0
+3092146.batch    64      1     0.0 %  2026-03-06T20:47:23    8.0 h  Signal 15
+3092146.uv       64      4     0.0 %  2026-03-06T20:47:28    8.0 h  143 (command killed by signal 15)
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 21.4 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3092146          64.0        
+3092146.batch    64.0     0.0
+3092146.uv       64.0    88.0
+
+Job 3092146 completed at Sat Mar 7 04:47:57 CET 2026
+Starting job 3101947 on gpu-5 on Fox at Mon Mar 9 01:10:41 CET 2026
+
+
+Job 3101947 consumed 250.7 billing hours from project ec12.
+
+Submitted 2026-03-09T01:10:40; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   3.2 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3101947          64            0.0 %  2026-03-09T01:10:40    3.2 h  134 (command killed by signal 6)
+3101947.batch    64      1     0.0 %  2026-03-09T01:10:40    3.2 h  134 (command killed by signal 6)
+3101947.uv       64      4     0.0 %  2026-03-09T01:10:45    3.2 h  134 (command killed by signal 6)
+
+Used CPU time:   2.4 CPU seconds
+Unused CPU time: 8.6 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3101947          64.0        
+3101947.batch    64.0     0.0
+3101947.uv       64.0    80.3
+
+Job 3101947 completed at Mon Mar 9 04:23:31 CET 2026
+Starting job 3112992 on gpu-5 on Fox at Mon Mar 9 22:37:04 CET 2026
+
+
+Job 3112992 consumed 246.2 billing hours from project ec12.
+
+Submitted 2026-03-09T22:37:03; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   3.2 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3112992          64            0.0 %  2026-03-09T22:37:04    3.2 h  134 (command killed by signal 6)
+3112992.batch    64      1     0.0 %  2026-03-09T22:37:04    3.2 h  134 (command killed by signal 6)
+3112992.uv       64      4     0.0 %  2026-03-09T22:37:07    3.2 h  134 (command killed by signal 6)
+
+Used CPU time:   9.6 CPU seconds
+Unused CPU time: 8.4 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3112992          64.0        
+3112992.batch    64.0     0.0
+3112992.uv       64.0    81.0
+
+Job 3112992 completed at Tue Mar 10 01:46:27 CET 2026
+Starting job 3114365 on gpu-9 on Fox at Tue Mar 10 09:44:33 CET 2026
+
+
+Job 3114365 consumed 641.2 billing hours from project ec12.
+
+Submitted 2026-03-10T09:44:32; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   8.2 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3114365          64            0.0 %  2026-03-10T09:44:33    8.2 h  134 (command killed by signal 6)
+3114365.batch    64      1     0.0 %  2026-03-10T09:44:33    8.2 h  134 (command killed by signal 6)
+3114365.uv       64      4     0.0 %  2026-03-10T09:44:36    8.2 h  134 (command killed by signal 6)
+
+Used CPU time:   3.4 CPU seconds
+Unused CPU time: 21.9 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3114365          64.0        
+3114365.batch    64.0     0.0
+3114365.uv       64.0    85.5
+
+Job 3114365 completed at Tue Mar 10 17:57:47 CET 2026
+Starting job 3128116 on gpu-12 on Fox at Thu Mar 12 11:47:03 CET 2026
+
+
+Job 3128116 consumed 0.6 billing hours from project ec12.
+
+Submitted 2026-03-12T11:46:33; waited 30.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   29.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3128116          64            0.0 %  2026-03-12T11:47:03   29.0 s  1
+3128116.batch    64      1     0.2 %  2026-03-12T11:47:03   29.0 s  1
+3128116.uv       64      4     0.0 %  2026-03-12T11:47:09   23.0 s  1
+
+Used CPU time:   3.2 CPU seconds
+Unused CPU time: 30.9 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3128116          64.0        
+3128116.batch    64.0     0.6
+3128116.uv       64.0     2.4
+
+Job 3128116 completed at Thu Mar 12 11:47:32 CET 2026
+Starting job 3128124 on gpu-12 on Fox at Thu Mar 12 11:51:04 CET 2026
+
+
+Job 3128124 consumed 264.9 billing hours from project ec12.
+
+Submitted 2026-03-12T11:50:40; waited 24.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   3.4 hours
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3128124          64            0.0 %  2026-03-12T11:51:04    3.4 h  0
+3128124.batch    64      1     0.0 %  2026-03-12T11:51:04    3.4 h  Signal 15
+3128124.uv       64      4     0.0 %  2026-03-12T11:51:07    3.4 h  143 (command killed by signal 15)
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 9.1 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3128124          64.0        
+3128124.batch    64.0     0.0
+3128124.uv       64.0    83.2
+
+Job 3128124 completed at Thu Mar 12 15:14:58 CET 2026
+Starting job 3129032 on gpu-12 on Fox at Thu Mar 12 15:22:00 CET 2026
+
+
+Job 3129032 consumed 1157.8 billing hours from project ec12.
+
+Submitted 2026-03-12T15:16:07; waited 5.9 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   14.8 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3129032          64            0.0 %  2026-03-12T15:22:00   14.8 h  1
+3129032.batch    64      1     0.0 %  2026-03-12T15:22:00   14.8 h  1
+3129032.uv       64      4     0.0 %  2026-03-12T15:22:03   14.8 h  1
+
+Used CPU time:   3.2 CPU seconds
+Unused CPU time: 39.6 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3129032          64.0        
+3129032.batch    64.0     0.0
+3129032.uv       64.0    87.7
+
+Job 3129032 completed at Fri Mar 13 06:12:39 CET 2026
+Starting job 3133149 on gpu-5 on Fox at Fri Mar 13 18:51:05 CET 2026
+
+
+Job 3133149 consumed 1248.5 billing hours from project ec12.
+
+Submitted 2026-03-13T18:22:36; waited 28.5 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   16.0 hours
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3133149          64            0.0 %  2026-03-13T18:51:05   16.0 h  0
+3133149.batch    64      1     0.0 %  2026-03-13T18:51:05   16.0 h  Signal 15
+3133149.uv       64      4     0.0 %  2026-03-13T18:51:10   16.0 h  143 (command killed by signal 15)
+
+Used CPU time:   4.3 CPU seconds
+Unused CPU time: 42.7 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3133149          64.0        
+3133149.batch    64.0     0.7
+3133149.uv       64.0    85.3
+
+Job 3133149 completed at Sat Mar 14 10:51:38 CET 2026
+Starting job 3141394 on gpu-12 on Fox at Mon Mar 16 11:58:04 CET 2026
+
+
+Job 3141394 consumed 486.6 billing hours from project ec12.
+
+Submitted 2026-03-16T11:58:01; waited 2.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   6.2 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3141394          64            0.0 %  2026-03-16T11:58:03    6.2 h  134 (command killed by signal 6)
+3141394.batch    64      1     0.0 %  2026-03-16T11:58:03    6.2 h  134 (command killed by signal 6)
+3141394.uv       64      4     0.0 %  2026-03-16T11:58:08    6.2 h  134 (command killed by signal 6)
+
+Used CPU time:   3.0 CPU seconds
+Unused CPU time: 16.6 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3141394          64.0        
+3141394.batch    64.0     0.0
+3141394.uv       64.0    84.1
+
+Job 3141394 completed at Mon Mar 16 18:12:22 CET 2026
+Starting job 3157091 on gpu-9 on Fox at Tue Mar 17 00:56:19 CET 2026
+
+
+Job 3157091 consumed 623.1 billing hours from project ec12.
+
+Submitted 2026-03-17T00:56:06; waited 12.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   8.0 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3157091          64            0.0 %  2026-03-17T00:56:18    8.0 h  134 (command killed by signal 6)
+3157091.batch    64      1     0.0 %  2026-03-17T00:56:18    8.0 h  134 (command killed by signal 6)
+3157091.uv       64      4     0.0 %  2026-03-17T00:56:23    8.0 h  134 (command killed by signal 6)
+
+Used CPU time:   3.1 CPU seconds
+Unused CPU time: 21.3 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3157091          64.0        
+3157091.batch    64.0     0.0
+3157091.uv       64.0    91.7
+
+Job 3157091 completed at Tue Mar 17 08:55:38 CET 2026
+Starting job 3301750 on gpu-17 on Fox at Tue Apr 7 20:00:44 CEST 2026
+
+
+Job 3301750 consumed 3.2 billing hours from project ec12.
+
+Submitted 2026-04-07T20:00:21; waited 18.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   2.5 minutes
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3301750          64            0.0 %  2026-04-07T20:00:39  147.0 s  0
+3301750.batch    64      1     0.0 %  2026-04-07T20:00:39  148.0 s  Signal 15
+3301750.uv       64      4     0.0 %  2026-04-07T20:00:43  145.0 s  1
+
+Used CPU time:   1.8 CPU seconds
+Unused CPU time: 2.6 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3301750          64.0        
+3301750.batch    64.0     0.7
+3301750.uv       64.0     1.5
+
+Job 3301750 completed at Tue Apr 7 20:03:14 CEST 2026
+Starting job 3301756 on gpu-17 on Fox at Tue Apr 7 20:03:45 CEST 2026
+
+
+Job 3301756 consumed 18.3 billing hours from project ec12.
+
+Submitted 2026-04-07T20:03:17; waited 24.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   14.1 minutes
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3301756          64            0.0 %  2026-04-07T20:03:41  845.0 s  0
+3301756.batch    64      1     0.0 %  2026-04-07T20:03:41  846.0 s  Signal 15
+3301756.uv       64      4     0.0 %  2026-04-07T20:03:42  846.0 s  1
+
+Used CPU time:   1.5 CPU seconds
+Unused CPU time: 15.0 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3301756          64.0        
+3301756.batch    64.0     0.0
+3301756.uv       64.0     1.3
+
+Job 3301756 completed at Tue Apr 7 20:17:54 CEST 2026
+Starting job 3301776 on gpu-15 on Fox at Wed Apr 8 22:34:27 CEST 2026
+
+
+Job 3301776 consumed 0.6 billing hours from project ec12.
+
+Submitted 2026-04-07T20:21:05; waited 1.1 days in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   27.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3301776          64            0.0 %  2026-04-08T22:34:27   27.0 s  1
+3301776.batch    64      1     0.2 %  2026-04-08T22:34:27   27.0 s  1
+3301776.uv       64      4     0.0 %  2026-04-08T22:34:31   23.0 s  1
+
+Used CPU time:   2.9 CPU seconds
+Unused CPU time: 28.8 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3301776          64.0        
+3301776.batch    64.0     0.0
+3301776.uv       64.0     2.3
+
+Job 3301776 completed at Wed Apr 8 22:34:54 CEST 2026
+Starting job 3307283 on gpu-5 on Fox at Wed Apr 8 23:38:20 CEST 2026
+
+
+Job 3307283 consumed 1248.2 billing hours from project ec12.
+
+Submitted 2026-04-08T23:38:05; waited 15.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   16.0 hours
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3307283          64            0.0 %  2026-04-08T23:38:20   16.0 h  0
+3307283.batch    64      1     0.0 %  2026-04-08T23:38:20   16.0 h  Signal 15
+3307283.uv       64      4     0.0 %  2026-04-08T23:38:23   16.0 h  143 (command killed by signal 15)
+
+Used CPU time:   2.5 CPU seconds
+Unused CPU time: 42.7 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3307283          64.0        
+3307283.batch    64.0     0.0
+3307283.uv       64.0    68.7
+
+Job 3307283 completed at Thu Apr 9 15:38:38 CEST 2026
+Starting job 3315112 on gpu-17 on Fox at Fri Apr 10 02:17:40 CEST 2026
+
+
+Job 3315112 consumed 25.7 billing hours from project ec12.
+
+Submitted 2026-04-10T01:00:47; waited 1.3 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   19.7 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+3315112          64            0.0 %  2026-04-10T02:17:35  1184.0 s  1
+3315112.batch    64      1     0.0 %  2026-04-10T02:17:35  1184.0 s  1
+3315112.uv       64      4     0.0 %  2026-04-10T02:17:37  1182.0 s  1
+
+Used CPU time:   1.5 CPU seconds
+Unused CPU time: 21.0 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3315112          64.0        
+3315112.batch    64.0     0.0
+3315112.uv       64.0     1.5
+
+Job 3315112 completed at Fri Apr 10 02:37:24 CEST 2026
+Starting job 3317689 on gpu-5 on Fox at Fri Apr 10 09:21:56 CEST 2026
+
+
+Job 3317689 consumed 0.5 billing hours from project ec12.
+
+Submitted 2026-04-10T09:21:43; waited 12.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   22.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3317689          64            0.0 %  2026-04-10T09:21:55   22.0 s  1
+3317689.batch    64      1     0.2 %  2026-04-10T09:21:55   22.0 s  1
+3317689.uv       64      4     0.0 %  2026-04-10T09:21:59   18.0 s  1
+
+Used CPU time:   2.6 CPU seconds
+Unused CPU time: 23.4 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3317689          64.0        
+3317689.batch    64.0     0.0
+3317689.uv       64.0     1.5
+
+Job 3317689 completed at Fri Apr 10 09:22:17 CEST 2026
+Starting job 3317787 on gpu-5 on Fox at Fri Apr 10 09:32:31 CEST 2026
+
+
+Job 3317787 consumed 13.2 billing hours from project ec12.
+
+Submitted 2026-04-10T09:32:21; waited 10.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   10.2 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3317787          64            0.0 %  2026-04-10T09:32:31  609.0 s  1
+3317787.batch    64      1     0.0 %  2026-04-10T09:32:31  609.0 s  1
+3317787.uv       64      4     0.0 %  2026-04-10T09:32:34  606.0 s  1
+
+Used CPU time:   2.6 CPU seconds
+Unused CPU time: 10.8 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3317787          64.0        
+3317787.batch    64.0     0.0
+3317787.uv       64.0     1.3
+
+Job 3317787 completed at Fri Apr 10 09:42:40 CEST 2026
+Starting job 3317958 on gpu-11 on Fox at Fri Apr 10 09:51:42 CEST 2026
+
+
+Job 3317958 consumed 5.4 billing hours from project ec12.
+
+Submitted 2026-04-10T09:51:17; waited 24.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   4.2 minutes
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3317958          64            0.0 %  2026-04-10T09:51:41  249.0 s  0
+3317958.batch    64      1     0.0 %  2026-04-10T09:51:41  250.0 s  Signal 15
+3317958.uv       64      4     0.0 %  2026-04-10T09:51:45  251.0 s  143 (command killed by signal 15)
+
+Used CPU time:   2.5 CPU seconds
+Unused CPU time: 4.4 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3317958          64.0        
+3317958.batch    64.0     0.0
+3317958.uv       64.0    25.1
+
+Job 3317958 completed at Fri Apr 10 09:55:58 CEST 2026
+Starting job 3318905 on gpu-17 on Fox at Fri Apr 10 11:40:35 CEST 2026
+
+
+Job 3318905 consumed 13.1 billing hours from project ec12.
+
+Submitted 2026-04-10T10:48:15; waited 52.2 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 10.0 minutes
+Elapsed wallclock time:   10.1 minutes
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3318905          64            0.0 %  2026-04-10T11:40:29  604.0 s  0
+3318905.batch    64      1     0.0 %  2026-04-10T11:40:29  605.0 s  Signal 15
+3318905.uv       64      4     0.0 %  2026-04-10T11:40:32  603.0 s  1
+
+Used CPU time:   1.5 CPU seconds
+Unused CPU time: 10.7 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3318905          64.0        
+3318905.batch    64.0     0.0
+3318905.uv       64.0     1.6
+
+Job 3318905 completed at Fri Apr 10 11:50:41 CEST 2026
+Starting job 3322355 on gpu-17 on Fox at Fri Apr 10 18:00:03 CEST 2026
+
+
+Job 3322355 consumed 19.8 billing hours from project ec12.
+
+Submitted 2026-04-10T17:59:55; waited 2.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 10.0 minutes
+Elapsed wallclock time:   10.1 minutes
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3322355          96            0.0 %  2026-04-10T17:59:57  608.0 s  0
+3322355.batch    96      1     0.0 %  2026-04-10T17:59:57  609.0 s  Signal 15
+3322355.uv       96      6     0.0 %  2026-04-10T18:00:00  608.0 s  143 (command killed by signal 15)
+
+Used CPU time:   1.7 CPU seconds
+Unused CPU time: 16.2 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3322355          96.0        
+3322355.batch    96.0     0.0
+3322355.uv       96.0    63.3
+
+Job 3322355 completed at Fri Apr 10 18:10:14 CEST 2026
+Starting job 3322378 on gpu-17 on Fox at Fri Apr 10 18:11:38 CEST 2026
+
+
+Job 3322378 consumed 16.2 billing hours from project ec12.
+
+Submitted 2026-04-10T18:11:14; waited 19.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 10.0 minutes
+Elapsed wallclock time:   10.0 minutes
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3322378          80            0.0 %  2026-04-10T18:11:33  602.0 s  0
+3322378.batch    80      1     0.0 %  2026-04-10T18:11:33  604.0 s  Signal 15
+3322378.uv       80      5     0.0 %  2026-04-10T18:11:35  603.0 s  1
+
+Used CPU time:   1.6 CPU seconds
+Unused CPU time: 13.4 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3322378          80.0        
+3322378.batch    80.0     0.0
+3322378.uv       80.0     1.7
+
+Job 3322378 completed at Fri Apr 10 18:21:43 CEST 2026
+Starting job 3322442 on gpu-17 on Fox at Fri Apr 10 18:21:45 CEST 2026
+
+
+Job 3322442 consumed 825.6 billing hours from project ec12.
+
+Submitted 2026-04-10T18:19:40; waited 2.0 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   7.1 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3322442          96            0.0 %  2026-04-10T18:21:39    7.1 h  134 (command killed by signal 6)
+3322442.batch    96      1     0.0 %  2026-04-10T18:21:39    7.1 h  134 (command killed by signal 6)
+3322442.uv       96      6     0.0 %  2026-04-10T18:21:42    7.1 h  134 (command killed by signal 6)
+
+Used CPU time:   1.8 CPU seconds
+Unused CPU time: 28.2 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3322442          96.0        
+3322442.batch    96.0     0.0
+3322442.uv       96.0    78.9
+
+Job 3322442 completed at Sat Apr 11 01:25:07 CEST 2026
+Starting job 3333084 on gpu-17 on Fox at Sun Apr 12 15:07:50 CEST 2026
+
+
+Job 3333084 consumed 106.4 billing hours from project ec12.
+
+Submitted 2026-04-12T15:07:37; waited 7.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   54.5 minutes
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+3333084          96            0.0 %  2026-04-12T15:07:44  3273.0 s  0
+3333084.batch    96      1     0.0 %  2026-04-12T15:07:44  3274.0 s  Signal 15
+3333084.uv       96      6     0.0 %  2026-04-12T15:07:47  3275.0 s  1
+
+Used CPU time:   2.8 CPU seconds
+Unused CPU time: 3.6 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3333084          96.0        
+3333084.batch    96.0     0.0
+3333084.uv       96.0    73.1
+
+Job 3333084 completed at Sun Apr 12 16:02:29 CEST 2026
+Starting job 3333250 on gpu-17 on Fox at Sun Apr 12 16:03:43 CEST 2026
+
+
+Job 3333250 consumed 135.4 billing hours from project ec12.
+
+Submitted 2026-04-12T16:03:31; waited 6.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   1.2 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3333250          96            0.0 %  2026-04-12T16:03:37    1.2 h  134 (command killed by signal 6)
+3333250.batch    96      1     0.0 %  2026-04-12T16:03:37    1.2 h  134 (command killed by signal 6)
+3333250.uv       96      6     0.0 %  2026-04-12T16:03:40    1.2 h  134 (command killed by signal 6)
+
+Used CPU time:   1.8 CPU seconds
+Unused CPU time: 4.6 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3333250          96.0        
+3333250.batch    96.0     0.0
+3333250.uv       96.0    74.2
+
+Job 3333250 completed at Sun Apr 12 17:13:09 CEST 2026
+Starting job 3333435 on gpu-17 on Fox at Sun Apr 12 18:01:50 CEST 2026
+
+
+Job 3333435 consumed 0.6 billing hours from project ec12.
+
+Submitted 2026-04-12T18:01:36; waited 9.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   17.0 seconds
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3333435          96            0.0 %  2026-04-12T18:01:45   17.0 s  0
+3333435.batch    96      1     0.1 %  2026-04-12T18:01:45   18.0 s  Signal 15
+3333435.uv       96      6     0.0 %  2026-04-12T18:01:47   19.0 s  143 (command killed by signal 15)
+
+Used CPU time:   1.7 CPU seconds
+Unused CPU time: 27.2 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3333435          96.0        
+3333435.batch    96.0     0.0
+3333435.uv       96.0     2.2
+
+Job 3333435 completed at Sun Apr 12 18:02:14 CEST 2026
+Starting job 3333458 on gpu-17 on Fox at Sun Apr 12 18:09:09 CEST 2026
+
+
+Job 3333458 consumed 1009.0 billing hours from project ec12.
+
+Submitted 2026-04-12T18:08:58; waited 6.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   8.6 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3333458          96            0.0 %  2026-04-12T18:09:04    8.6 h  0
+3333458.batch    96      1     0.0 %  2026-04-12T18:09:04    8.6 h  0
+3333458.uv       96      6     0.0 %  2026-04-12T18:09:06    8.6 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 34.5 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3333458          96.0        
+3333458.batch    96.0     0.0
+3333458.uv       96.0    75.6
+
+Job 3333458 completed at Mon Apr 13 02:46:35 CEST 2026
+Starting job 3344666 on gpu-17 on Fox at Mon Apr 13 10:14:26 CEST 2026
+
+
+Job 3344666 consumed 1013.0 billing hours from project ec12.
+
+Submitted 2026-04-13T09:51:15; waited 23.1 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   8.7 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3344666          96            0.0 %  2026-04-13T10:14:20    8.7 h  0
+3344666.batch    96      1     0.0 %  2026-04-13T10:14:20    8.7 h  0
+3344666.uv       96      6     0.0 %  2026-04-13T10:14:24    8.7 h  0
+
+Used CPU time:   2.4 CPU seconds
+Unused CPU time: 34.6 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3344666          96.0        
+3344666.batch    96.0     0.0
+3344666.uv       96.0    76.5
+
+Job 3344666 completed at Mon Apr 13 18:53:55 CEST 2026
+Starting job 3371525 on gpu-17 on Fox at Thu Apr 16 03:05:01 CEST 2026
+
+
+Job 3371525 consumed 1130.9 billing hours from project ec12.
+
+Submitted 2026-04-16T01:54:23; waited 1.2 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   9.7 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3371525          96            0.0 %  2026-04-16T03:04:54    9.7 h  134 (command killed by signal 6)
+3371525.batch    96      1     0.0 %  2026-04-16T03:04:54    9.7 h  134 (command killed by signal 6)
+3371525.uv       96      6     0.0 %  2026-04-16T03:04:58    9.7 h  134 (command killed by signal 6)
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 38.7 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3371525          96.0        
+3371525.batch    96.0     0.0
+3371525.uv       96.0    79.4
+
+Job 3371525 completed at Thu Apr 16 12:44:58 CEST 2026
+Starting job 3382452 on gpu-17 on Fox at Sat Apr 18 10:37:51 CEST 2026
+
+
+Job 3382452 consumed 1872.0 billing hours from project ec12.
+
+Submitted 2026-04-17T13:28:37; waited 21.2 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   16.0 hours
+
+Job timed out.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3382452          96            0.0 %  2026-04-18T10:37:44   16.0 h  0
+3382452.batch    96      1     0.0 %  2026-04-18T10:37:44   16.0 h  Signal 15
+3382452.uv       96      6     0.0 %  2026-04-18T10:37:48   16.0 h  143 (command killed by signal 15)
+
+Used CPU time:   1.7 CPU seconds
+Unused CPU time: 64.0 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3382452          96.0        
+3382452.batch    96.0     0.0
+3382452.uv       96.0    78.0
+
+Job 3382452 completed at Sun Apr 19 02:37:57 CEST 2026
+Starting job 3389988 on gpu-17 on Fox at Mon Apr 20 09:43:02 CEST 2026
+
+
+Job 3389988 consumed 452.9 billing hours from project ec12.
+
+Submitted 2026-04-20T09:42:52; waited 3.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   3.9 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3389988          96            0.0 %  2026-04-20T09:42:55    3.9 h  134 (command killed by signal 6)
+3389988.batch    96      1     0.0 %  2026-04-20T09:42:55    3.9 h  134 (command killed by signal 6)
+3389988.uv       96      6     0.0 %  2026-04-20T09:42:58    3.9 h  134 (command killed by signal 6)
+
+Used CPU time:   1.8 CPU seconds
+Unused CPU time: 15.5 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3389988          96.0        
+3389988.batch    96.0     0.0
+3389988.uv       96.0    74.9
+
+Job 3389988 completed at Mon Apr 20 13:35:20 CEST 2026
+Starting job 3391575 on gpu-17 on Fox at Mon Apr 20 21:42:00 CEST 2026
+
+
+Job 3391575 consumed 1.3 billing hours from project ec12.
+
+Submitted 2026-04-20T17:27:52; waited 4.2 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   40.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3391575          96            0.0 %  2026-04-20T21:41:54   40.0 s  1
+3391575.batch    96      1     0.0 %  2026-04-20T21:41:54   40.0 s  1
+3391575.uv       96      6     0.0 %  2026-04-20T21:41:57   37.0 s  1
+
+Used CPU time:   1.8 CPU seconds
+Unused CPU time: 1.1 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3391575          96.0        
+3391575.batch    96.0     0.0
+3391575.uv       96.0    36.3
+
+Job 3391575 completed at Mon Apr 20 21:42:40 CEST 2026
+Starting job 3392586 on gpu-17 on Fox at Tue Apr 21 10:35:28 CEST 2026
+
+
+Job 3392586 consumed 1717.7 billing hours from project ec12.
+
+Submitted 2026-04-21T10:35:15; waited 5.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   14.7 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3392586          96            0.0 %  2026-04-21T10:35:20   14.7 h  0
+3392586.batch    96      1     0.0 %  2026-04-21T10:35:20   14.7 h  0
+3392586.uv       96      6     0.0 %  2026-04-21T10:35:24   14.7 h  0
+
+Used CPU time:   3.0 CPU seconds
+Unused CPU time: 58.7 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3392586          96.0        
+3392586.batch    96.0     0.0
+3392586.uv       96.0    77.4
+
+Job 3392586 completed at Wed Apr 22 01:16:19 CEST 2026
+Starting job 3392834 on gpu-17 on Fox at Wed Apr 22 01:16:19 CEST 2026
+
+
+Job 3392834 consumed 970.7 billing hours from project ec12.
+
+Submitted 2026-04-21T12:19:31; waited 12.9 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   8.3 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3392834          96            0.0 %  2026-04-22T01:16:12    8.3 h  0
+3392834.batch    96      1     0.0 %  2026-04-22T01:16:12    8.3 h  0
+3392834.uv       96      6     0.0 %  2026-04-22T01:16:15    8.3 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 33.2 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3392834          96.0        
+3392834.batch    96.0     0.0
+3392834.uv       96.0    79.4
+
+Job 3392834 completed at Wed Apr 22 09:34:06 CEST 2026
+Starting job 3392892 on gpu-17 on Fox at Wed Apr 22 09:34:07 CEST 2026
+
+
+Job 3392892 consumed 202.0 billing hours from project ec12.
+
+Submitted 2026-04-21T12:50:13; waited 20.7 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   1.7 hours
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3392892          96            0.0 %  2026-04-22T09:34:01    1.7 h  0
+3392892.batch    96      1     0.0 %  2026-04-22T09:34:01    1.7 h  Signal 15
+3392892.uv       96      6     0.0 %  2026-04-22T09:34:03    1.7 h  143 (command killed by signal 15)
+
+Used CPU time:   1.8 CPU seconds
+Unused CPU time: 6.9 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3392892          96.0        
+3392892.batch    96.0     0.0
+3392892.uv       96.0    77.5
+
+Job 3392892 completed at Wed Apr 22 11:17:50 CEST 2026
+Starting job 3394463 on gpu-17 on Fox at Wed Apr 22 11:18:10 CEST 2026
+
+
+Job 3394463 consumed 1412.5 billing hours from project ec12.
+
+Submitted 2026-04-22T11:17:27; waited 36.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   12.1 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3394463          96            0.0 %  2026-04-22T11:18:03   12.1 h  0
+3394463.batch    96      1     0.0 %  2026-04-22T11:18:03   12.1 h  0
+3394463.uv       96      6     0.0 %  2026-04-22T11:18:06   12.1 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 48.3 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3394463          96.0        
+3394463.batch    96.0     0.0
+3394463.uv       96.0    78.2
+
+Job 3394463 completed at Wed Apr 22 23:22:33 CEST 2026
+Starting job 3396169 on gpu-17 on Fox at Thu Apr 23 12:24:44 CEST 2026
+
+
+Job 3396169 consumed 951.2 billing hours from project ec12.
+
+Submitted 2026-04-23T12:24:15; waited 22.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   8.1 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3396169          96            0.0 %  2026-04-23T12:24:37    8.1 h  0
+3396169.batch    96      1     0.0 %  2026-04-23T12:24:37    8.1 h  0
+3396169.uv       96      6     0.0 %  2026-04-23T12:24:40    8.1 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 32.5 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3396169          96.0        
+3396169.batch    96.0     0.0
+3396169.uv       96.0    92.0
+
+Job 3396169 completed at Thu Apr 23 20:32:32 CEST 2026
+Starting job 3396939 on gpu-17 on Fox at Thu Apr 23 20:32:32 CEST 2026
+
+
+Job 3396939 consumed 1370.5 billing hours from project ec12.
+
+Submitted 2026-04-23T15:09:52; waited 5.4 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   11.7 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3396939          96            0.0 %  2026-04-23T20:32:26   11.7 h  0
+3396939.batch    96      1     0.0 %  2026-04-23T20:32:26   11.7 h  0
+3396939.uv       96      6     0.0 %  2026-04-23T20:32:28   11.7 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 46.9 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3396939          96.0        
+3396939.batch    96.0     0.0
+3396939.uv       96.0    96.1
+
+Job 3396939 completed at Fri Apr 24 08:15:23 CEST 2026
+Starting job 3401885 on gpu-17 on Fox at Mon Apr 27 11:59:06 CEST 2026
+
+
+Job 3401885 consumed 1112.1 billing hours from project ec12.
+
+Submitted 2026-04-27T09:17:05; waited 2.7 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   9.5 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3401885          96            0.0 %  2026-04-27T11:58:58    9.5 h  0
+3401885.batch    96      1     0.0 %  2026-04-27T11:58:58    9.5 h  0
+3401885.uv       96      6     0.0 %  2026-04-27T11:59:02    9.5 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 38.0 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3401885          96.0        
+3401885.batch    96.0     0.0
+3401885.uv       96.0    93.6
+
+Job 3401885 completed at Mon Apr 27 21:29:25 CEST 2026
+Starting job 3411366 on gpu-17 on Fox at Thu Apr 30 13:41:13 CEST 2026
+
+
+Job 3411366 consumed 1532.6 billing hours from project ec12.
+
+Submitted 2026-04-29T14:05:52; waited 23.6 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 16.0 hours
+Elapsed wallclock time:   13.1 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3411366          96            0.0 %  2026-04-30T13:39:45   13.1 h  0
+3411366.batch    96      1     0.0 %  2026-04-30T13:39:45   13.1 h  0
+3411366.uv       96      6     0.0 %  2026-04-30T13:39:48   13.1 h  0
+
+Used CPU time:   2.0 CPU seconds
+Unused CPU time: 52.4 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3411366          96.0        
+3411366.batch    96.0     0.0
+3411366.uv       96.0    97.0
+
+Job 3411366 completed at Fri May 1 02:47:10 CEST 2026
+Starting job 3462862 on gpu-17 on Fox at Wed May 6 21:20:23 CEST 2026
+
+
+Job 3462862 consumed 1444.1 billing hours from project ec12.
+
+Submitted 2026-05-06T09:44:36; waited 11.6 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 14.0 hours
+Elapsed wallclock time:   12.3 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3462862          96            0.0 %  2026-05-06T21:18:54   12.3 h  0
+3462862.batch    96      1     0.0 %  2026-05-06T21:18:54   12.3 h  0
+3462862.uv       96      6     0.0 %  2026-05-06T21:18:57   12.3 h  0
+
+Used CPU time:   1.9 CPU seconds
+Unused CPU time: 49.4 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3462862          96.0        
+3462862.batch    96.0     0.0
+3462862.uv       96.0    93.9
+
+Job 3462862 completed at Thu May 7 09:40:59 CEST 2026
+Starting job 3468780 on gpu-17 on Fox at Fri May 8 03:52:06 CEST 2026
+
+
+Job 3468780 consumed 1471.8 billing hours from project ec12.
+
+Submitted 2026-05-07T10:04:29; waited 17.8 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 14.0 hours
+Elapsed wallclock time:   12.6 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+3468780          96            0.0 %  2026-05-08T03:50:37   12.6 h  0
+3468780.batch    96      1     0.0 %  2026-05-08T03:50:37   12.6 h  0
+3468780.uv       96      6     0.0 %  2026-05-08T03:50:39   12.6 h  0
+
+Used CPU time:   2.0 CPU seconds
+Unused CPU time: 50.3 CPU days
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+3468780          96.0        
+3468780.batch    96.0     0.0
+3468780.uv       96.0    95.9
+
+Job 3468780 completed at Fri May 8 16:27:01 CEST 2026

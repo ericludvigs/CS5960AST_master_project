@@ -1,0 +1,4 @@
+Resolved 195 packages in 1ms
+Audited 185 packages in 468ms
+/mn/stornext/d5/data/ericlu/CS5960AST/src/cs_5960_ast/model_code/model_main.py:1118: RuntimeWarning: More than 33 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(ncols=4, nrows=2, figsize=(self.figwidth * 4, self.figheight * 2))
