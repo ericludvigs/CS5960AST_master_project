@@ -1,0 +1,49 @@
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | - Debug prints enabled -
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | - Workstation/desktop environment set, using workstation config -
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | Using settings: workstation_config
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | LOCAL_RANK var: 0, program argument: 0
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | SLURM_PROCID var: None, program argument: 0
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | AST job id: inference_3133149_early_gridded
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | Slurm job id: None
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | Torch env id: 25c5a0ee-4c01-4bc6-a972-e0ad03375476
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | PyTorch device: cuda:0, on process 0
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | 
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | ------------------------------------------
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | Torch version: 2.9.1+cu126
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | CUDA version: 12.6
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | Number of accelerators (GPUs) processes should have visible: 2
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | Accelerator info from process 0
+| Accelerator 0: Tesla P100-PCIE-16GB
+| Total memory: 15.89 GB
+| Allocated: 0.00 GB
+| Reserved: 0.00 GB
+| Free/total memory: 15.64 GB / 15.89 GB
+| Memory Utilization: 1.59%
+
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | | Full CUDA properties for accelerator 0:
+|    _CudaDeviceProperties(name='Tesla P100-PCIE-16GB', major=6, minor=0, total_memory=16269MB, multi_processor_count=56, uuid=c1cd9136-7359-043a-f295-793304e61179, pci_bus_id=2, pci_device_id=0, pci_domain_id=0, L2_cache_size=4MB)
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | | Full CUDA properties for accelerator 1:
+|    _CudaDeviceProperties(name='Tesla P100-PCIE-16GB', major=6, minor=0, total_memory=16269MB, multi_processor_count=56, uuid=8c858320-7f89-b927-4c81-6c608a455b78, pci_bus_id=130, pci_device_id=0, pci_domain_id=0, L2_cache_size=4MB)
+2026-05-18T03:14:39+0200 - cs_5960_ast - INFO     | ------------------------------------------
+
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | Wrote run config to: /mn/stornext/d5/data/ericlu/CS5960AST/models/runs/workstation/inference_3133149_early_gridded/run_config.json
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | Script running from: /mn/stornext/d5/data/ericlu/CS5960AST
+2026-05-18T03:14:39+0200 - cs_5960_ast - DEBUG    | Input args=Namespace(run_id='testing_3', rng_seed=None, debug=False, debug_env_var_dump=False, load_state=None, load_state_strict=True, load_path='/mn/stornext/d5/data/ericlu/CS5960AST/models/runs/node/3133149/model_checkpoints/model_state_101.pt', distributed=False, dist_backend='nccl', dist_url='env://', local_rank=0, local_world_size=-1, world_size=-1, mode='infer')
+2026-05-18T03:14:40+0200 - cs_5960_ast - DEBUG    | Testing dataloader info:
+2026-05-18T03:14:40+0200 - cs_5960_ast - DEBUG    | Input channels: [1]
+2026-05-18T03:14:40+0200 - cs_5960_ast - DEBUG    | Output channels: [1, 1, 1, 1]
+2026-05-18T03:14:40+0200 - cs_5960_ast - DEBUG    | Style size: 7
+2026-05-18T03:14:40+0200 - cs_5960_ast - DEBUG    | Dataset size: [256 256 256]
+2026-05-18T03:14:40+0200 - cs_5960_ast - DEBUG    | Dataset ndim: 3
+2026-05-18T03:14:43+0200 - cs_5960_ast - DEBUG    | Found checkpoint file: /mn/stornext/d5/data/ericlu/CS5960AST/models/runs/node/3133149/model_checkpoints/model_state_101.pt
+2026-05-18T03:14:43+0200 - cs_5960_ast - INFO     | Model state at epoch 101, step 80001 loaded from file.
+2026-05-18T03:14:43+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator G: 4.4e6
+2026-05-18T03:14:43+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator GE: 4.4e6
+2026-05-18T03:14:43+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Discriminator: 1.4e6
+2026-05-18T03:14:43+0200 - cs_5960_ast - DEBUG    | Test loader batch count: 1
+2026-05-18T03:14:44+0200 - cs_5960_ast - DEBUG    | Running model on test data from simulation: sim_10_33_epoch_101
+2026-05-18T03:14:44+0200 - cs_5960_ast - DEBUG    | Input files: ['DMO-10-33.npy'], Target files: ['DM-10-33.npy', 'E-10-33.npy', 'gas-10-33.npy', 'T-10-33.npy']
+2026-05-18T03:14:44+0200 - cs_5960_ast - DEBUG    | Input vector shape: torch.Size([1, 1, 132, 132, 132]), with 2+2 padding
+2026-05-18T03:14:44+0200 - cs_5960_ast - DEBUG    | Target vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T03:15:32+0200 - cs_5960_ast - DEBUG    | Output vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T03:19:48+0200 - cs_5960_ast - INFO     | Calculating power spectra...

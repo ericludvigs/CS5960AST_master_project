@@ -1,0 +1,30 @@
+Dataset: Test
+
+Input files info:
+{'1_total_num_fields_in': 3,
+ '2_num_files_per_pattern': {'DMO-*-*.npy': 3},
+ '3_all_files_used': {'DMO-*-*.npy': ['DMO-10-0.npy',
+                                      'DMO-10-1.npy',
+                                      'DMO-10-33.npy']}}
+
+Target files info:
+{'1_total_num_fields_tgt': 3,
+ '2_num_files_per_pattern': {'DM-*-*.npy': 3,
+                             'E-*-*.npy': 3,
+                             'T-*-*.npy': 3,
+                             'gas-*-*.npy': 3},
+ '3_all_files_used': {'DM-*-*.npy': ['test/DM-10-0.npy',
+                                     'test/DM-10-1.npy',
+                                     'test/DM-10-33.npy'],
+                      'E-*-*.npy': ['test/E-10-0.npy',
+                                    'test/E-10-1.npy',
+                                    'test/E-10-33.npy'],
+                      'T-*-*.npy': ['test/T-10-0.npy',
+                                    'test/T-10-1.npy',
+                                    'test/T-10-33.npy'],
+                      'gas-*-*.npy': ['test/gas-10-0.npy',
+                                      'test/gas-10-1.npy',
+                                      'test/gas-10-33.npy']}}
+
+Total number of style files: 3
+
