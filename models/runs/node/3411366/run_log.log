@@ -1,0 +1,258 @@
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | - Remote node environment set, using remote node config -
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | Using settings: remote_node_config
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | AST job id: 3411366
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | 
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | ------------------------------------------
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | Torch version: 2.9.1+cu126
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | CUDA version: 12.6
+2026-04-30T13:41:33+0200 - cs_5960_ast - INFO     | Number of accelerators (GPUs) processes should have visible: 6
+2026-04-30T13:41:35+0200 - cs_5960_ast - INFO     | ------------------------------------------
+
+2026-04-30T13:41:50+0200 - cs_5960_ast.model - INFO     | Starting epoch: 1
+2026-04-30T13:47:46+0200 - cs_5960_ast.model - INFO     | Starting epoch: 2
+2026-04-30T13:52:25+0200 - cs_5960_ast.model - INFO     | Starting epoch: 3
+2026-04-30T13:57:16+0200 - cs_5960_ast.model - INFO     | Starting epoch: 4
+2026-04-30T14:02:19+0200 - cs_5960_ast.model - INFO     | Starting epoch: 5
+2026-04-30T14:07:04+0200 - cs_5960_ast.model - INFO     | Starting epoch: 6
+2026-04-30T14:13:23+0200 - cs_5960_ast.model - INFO     | Starting epoch: 7
+2026-04-30T14:20:56+0200 - cs_5960_ast.model - INFO     | Starting epoch: 8
+2026-04-30T14:28:36+0200 - cs_5960_ast.model - INFO     | Starting epoch: 9
+2026-04-30T14:35:33+0200 - cs_5960_ast.model - INFO     | Starting epoch: 10
+2026-04-30T14:40:38+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 10
+2026-04-30T14:40:39+0200 - cs_5960_ast.model - INFO     | Starting epoch: 11
+2026-04-30T14:45:09+0200 - cs_5960_ast.model - INFO     | Starting epoch: 12
+2026-04-30T14:49:41+0200 - cs_5960_ast.model - INFO     | Starting epoch: 13
+2026-04-30T14:54:20+0200 - cs_5960_ast.model - INFO     | Starting epoch: 14
+2026-04-30T14:59:05+0200 - cs_5960_ast.model - INFO     | Starting epoch: 15
+2026-04-30T15:03:52+0200 - cs_5960_ast.model - INFO     | Starting epoch: 16
+2026-04-30T15:08:28+0200 - cs_5960_ast.model - INFO     | Starting epoch: 17
+2026-04-30T15:13:16+0200 - cs_5960_ast.model - INFO     | Starting epoch: 18
+2026-04-30T15:18:07+0200 - cs_5960_ast.model - INFO     | Starting epoch: 19
+2026-04-30T15:22:43+0200 - cs_5960_ast.model - INFO     | Starting epoch: 20
+2026-04-30T15:27:31+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 20
+2026-04-30T15:27:31+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: +0.1180%
+2026-04-30T15:27:31+0200 - cs_5960_ast.model - INFO     | Starting epoch: 21
+2026-04-30T15:32:13+0200 - cs_5960_ast.model - INFO     | Starting epoch: 22
+2026-04-30T15:36:50+0200 - cs_5960_ast.model - INFO     | Starting epoch: 23
+2026-04-30T15:41:24+0200 - cs_5960_ast.model - INFO     | Starting epoch: 24
+2026-04-30T15:45:45+0200 - cs_5960_ast.model - INFO     | Starting epoch: 25
+2026-04-30T15:50:05+0200 - cs_5960_ast.model - INFO     | Starting epoch: 26
+2026-04-30T15:54:27+0200 - cs_5960_ast.model - INFO     | Starting epoch: 27
+2026-04-30T15:58:48+0200 - cs_5960_ast.model - INFO     | Starting epoch: 28
+2026-04-30T16:03:08+0200 - cs_5960_ast.model - INFO     | Starting epoch: 29
+2026-04-30T16:07:30+0200 - cs_5960_ast.model - INFO     | Starting epoch: 30
+2026-04-30T16:12:21+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 30
+2026-04-30T16:12:21+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -31.4138%
+2026-04-30T16:12:21+0200 - cs_5960_ast.model - INFO     | Starting epoch: 31
+2026-04-30T16:16:44+0200 - cs_5960_ast.model - INFO     | Starting epoch: 32
+2026-04-30T16:21:07+0200 - cs_5960_ast.model - INFO     | Starting epoch: 33
+2026-04-30T16:25:29+0200 - cs_5960_ast.model - INFO     | Starting epoch: 34
+2026-04-30T16:29:51+0200 - cs_5960_ast.model - INFO     | Starting epoch: 35
+2026-04-30T16:34:11+0200 - cs_5960_ast.model - INFO     | Starting epoch: 36
+2026-04-30T16:38:32+0200 - cs_5960_ast.model - INFO     | Starting epoch: 37
+2026-04-30T16:42:53+0200 - cs_5960_ast.model - INFO     | Starting epoch: 38
+2026-04-30T16:47:15+0200 - cs_5960_ast.model - INFO     | Starting epoch: 39
+2026-04-30T16:51:35+0200 - cs_5960_ast.model - INFO     | Starting epoch: 40
+2026-04-30T16:55:56+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 40
+2026-04-30T16:55:56+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -28.3054%
+2026-04-30T16:55:56+0200 - cs_5960_ast.model - INFO     | Starting epoch: 41
+2026-04-30T17:05:11+0200 - cs_5960_ast.model - INFO     | Starting epoch: 42
+2026-04-30T17:10:58+0200 - cs_5960_ast.model - INFO     | Starting epoch: 43
+2026-04-30T17:16:17+0200 - cs_5960_ast.model - INFO     | Starting epoch: 44
+2026-04-30T17:21:11+0200 - cs_5960_ast.model - INFO     | Starting epoch: 45
+2026-04-30T17:26:29+0200 - cs_5960_ast.model - INFO     | Starting epoch: 46
+2026-04-30T17:31:54+0200 - cs_5960_ast.model - INFO     | Starting epoch: 47
+2026-04-30T17:36:18+0200 - cs_5960_ast.model - INFO     | Starting epoch: 48
+2026-04-30T17:40:51+0200 - cs_5960_ast.model - INFO     | Starting epoch: 49
+2026-04-30T17:45:27+0200 - cs_5960_ast.model - INFO     | Starting epoch: 50
+2026-04-30T17:50:25+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 50
+2026-04-30T17:50:26+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -2.3080%
+2026-04-30T17:50:26+0200 - cs_5960_ast.model - INFO     | Starting epoch: 51
+2026-04-30T17:55:19+0200 - cs_5960_ast.model - INFO     | Starting epoch: 52
+2026-04-30T18:00:44+0200 - cs_5960_ast.model - INFO     | Starting epoch: 53
+2026-04-30T18:05:34+0200 - cs_5960_ast.model - INFO     | Starting epoch: 54
+2026-04-30T18:10:18+0200 - cs_5960_ast.model - INFO     | Starting epoch: 55
+2026-04-30T18:14:59+0200 - cs_5960_ast.model - INFO     | Starting epoch: 56
+2026-04-30T18:20:53+0200 - cs_5960_ast.model - INFO     | Starting epoch: 57
+2026-04-30T18:26:28+0200 - cs_5960_ast.model - INFO     | Starting epoch: 58
+2026-04-30T18:32:39+0200 - cs_5960_ast.model - INFO     | Starting epoch: 59
+2026-04-30T18:39:56+0200 - cs_5960_ast.model - INFO     | Starting epoch: 60
+2026-04-30T18:46:16+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 60
+2026-04-30T18:46:16+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -5.7216%
+2026-04-30T18:46:16+0200 - cs_5960_ast.model - INFO     | Starting epoch: 61
+2026-04-30T18:51:41+0200 - cs_5960_ast.model - INFO     | Starting epoch: 62
+2026-04-30T18:56:48+0200 - cs_5960_ast.model - INFO     | Starting epoch: 63
+2026-04-30T19:04:30+0200 - cs_5960_ast.model - INFO     | Starting epoch: 64
+2026-04-30T19:09:57+0200 - cs_5960_ast.model - INFO     | Starting epoch: 65
+2026-04-30T19:15:24+0200 - cs_5960_ast.model - INFO     | Starting epoch: 66
+2026-04-30T19:20:22+0200 - cs_5960_ast.model - INFO     | Starting epoch: 67
+2026-04-30T19:25:16+0200 - cs_5960_ast.model - INFO     | Starting epoch: 68
+2026-04-30T19:30:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 69
+2026-04-30T19:35:02+0200 - cs_5960_ast.model - INFO     | Starting epoch: 70
+2026-04-30T19:40:29+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 70
+2026-04-30T19:40:29+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: +1.0157%
+2026-04-30T19:40:29+0200 - cs_5960_ast.model - INFO     | Starting epoch: 71
+2026-04-30T19:45:37+0200 - cs_5960_ast.model - INFO     | Starting epoch: 72
+2026-04-30T19:50:40+0200 - cs_5960_ast.model - INFO     | Starting epoch: 73
+2026-04-30T19:55:32+0200 - cs_5960_ast.model - INFO     | Starting epoch: 74
+2026-04-30T20:00:31+0200 - cs_5960_ast.model - INFO     | Starting epoch: 75
+2026-04-30T20:05:44+0200 - cs_5960_ast.model - INFO     | Starting epoch: 76
+2026-04-30T20:10:52+0200 - cs_5960_ast.model - INFO     | Starting epoch: 77
+2026-04-30T20:16:01+0200 - cs_5960_ast.model - INFO     | Starting epoch: 78
+2026-04-30T20:22:20+0200 - cs_5960_ast.model - INFO     | Starting epoch: 79
+2026-04-30T20:27:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 80
+2026-04-30T20:32:12+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 80
+2026-04-30T20:32:12+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: +3.0100%
+2026-04-30T20:32:12+0200 - cs_5960_ast.model - INFO     | Starting epoch: 81
+2026-04-30T20:37:20+0200 - cs_5960_ast.model - INFO     | Starting epoch: 82
+2026-04-30T20:42:15+0200 - cs_5960_ast.model - INFO     | Starting epoch: 83
+2026-04-30T20:47:05+0200 - cs_5960_ast.model - INFO     | Starting epoch: 84
+2026-04-30T20:52:06+0200 - cs_5960_ast.model - INFO     | Starting epoch: 85
+2026-04-30T20:56:54+0200 - cs_5960_ast.model - INFO     | Starting epoch: 86
+2026-04-30T21:01:22+0200 - cs_5960_ast.model - INFO     | Starting epoch: 87
+2026-04-30T21:05:44+0200 - cs_5960_ast.model - INFO     | Starting epoch: 88
+2026-04-30T21:10:03+0200 - cs_5960_ast.model - INFO     | Starting epoch: 89
+2026-04-30T21:14:22+0200 - cs_5960_ast.model - INFO     | Starting epoch: 90
+2026-04-30T21:18:50+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 90
+2026-04-30T21:18:50+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -10.4929%
+2026-04-30T21:18:50+0200 - cs_5960_ast.model - INFO     | Starting epoch: 91
+2026-04-30T21:23:27+0200 - cs_5960_ast.model - INFO     | Starting epoch: 92
+2026-04-30T21:28:06+0200 - cs_5960_ast.model - INFO     | Starting epoch: 93
+2026-04-30T21:32:52+0200 - cs_5960_ast.model - INFO     | Starting epoch: 94
+2026-04-30T21:37:18+0200 - cs_5960_ast.model - INFO     | Starting epoch: 95
+2026-04-30T21:41:40+0200 - cs_5960_ast.model - INFO     | Starting epoch: 96
+2026-04-30T21:46:04+0200 - cs_5960_ast.model - INFO     | Starting epoch: 97
+2026-04-30T21:50:28+0200 - cs_5960_ast.model - INFO     | Starting epoch: 98
+2026-04-30T21:54:52+0200 - cs_5960_ast.model - INFO     | Starting epoch: 99
+2026-04-30T21:59:13+0200 - cs_5960_ast.model - INFO     | Starting epoch: 100
+2026-04-30T22:03:53+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 100
+2026-04-30T22:03:54+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -9.7429%
+2026-04-30T22:03:54+0200 - cs_5960_ast.model - INFO     | Starting epoch: 101
+2026-04-30T22:08:42+0200 - cs_5960_ast.model - INFO     | Starting epoch: 102
+2026-04-30T22:13:25+0200 - cs_5960_ast.model - INFO     | Starting epoch: 103
+2026-04-30T22:18:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 104
+2026-04-30T22:22:54+0200 - cs_5960_ast.model - INFO     | Starting epoch: 105
+2026-04-30T22:27:34+0200 - cs_5960_ast.model - INFO     | Starting epoch: 106
+2026-04-30T22:32:14+0200 - cs_5960_ast.model - INFO     | Starting epoch: 107
+2026-04-30T22:36:52+0200 - cs_5960_ast.model - INFO     | Starting epoch: 108
+2026-04-30T22:41:29+0200 - cs_5960_ast.model - INFO     | Starting epoch: 109
+2026-04-30T22:46:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 110
+2026-04-30T22:51:06+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 110
+2026-04-30T22:51:06+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: +5.8153%
+2026-04-30T22:51:06+0200 - cs_5960_ast.model - INFO     | Starting epoch: 111
+2026-04-30T22:55:51+0200 - cs_5960_ast.model - INFO     | Starting epoch: 112
+2026-04-30T23:00:37+0200 - cs_5960_ast.model - INFO     | Starting epoch: 113
+2026-04-30T23:05:24+0200 - cs_5960_ast.model - INFO     | Starting epoch: 114
+2026-04-30T23:09:49+0200 - cs_5960_ast.model - INFO     | Starting epoch: 115
+2026-04-30T23:14:14+0200 - cs_5960_ast.model - INFO     | Starting epoch: 116
+2026-04-30T23:18:35+0200 - cs_5960_ast.model - INFO     | Starting epoch: 117
+2026-04-30T23:22:56+0200 - cs_5960_ast.model - INFO     | Starting epoch: 118
+2026-04-30T23:27:16+0200 - cs_5960_ast.model - INFO     | Starting epoch: 119
+2026-04-30T23:31:39+0200 - cs_5960_ast.model - INFO     | Starting epoch: 120
+2026-04-30T23:35:59+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 120
+2026-04-30T23:35:59+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: +10.2185%
+2026-04-30T23:35:59+0200 - cs_5960_ast.model - INFO     | Starting epoch: 121
+2026-04-30T23:40:26+0200 - cs_5960_ast.model - INFO     | Starting epoch: 122
+2026-04-30T23:44:49+0200 - cs_5960_ast.model - INFO     | Starting epoch: 123
+2026-04-30T23:49:23+0200 - cs_5960_ast.model - INFO     | Starting epoch: 124
+2026-04-30T23:54:03+0200 - cs_5960_ast.model - INFO     | Starting epoch: 125
+2026-04-30T23:58:50+0200 - cs_5960_ast.model - INFO     | Starting epoch: 126
+2026-05-01T00:03:27+0200 - cs_5960_ast.model - INFO     | Starting epoch: 127
+2026-05-01T00:08:15+0200 - cs_5960_ast.model - INFO     | Starting epoch: 128
+2026-05-01T00:13:01+0200 - cs_5960_ast.model - INFO     | Starting epoch: 129
+2026-05-01T00:17:39+0200 - cs_5960_ast.model - INFO     | Starting epoch: 130
+2026-05-01T00:22:22+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 130
+2026-05-01T00:22:22+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -0.4515%
+2026-05-01T00:22:22+0200 - cs_5960_ast.model - INFO     | Starting epoch: 131
+2026-05-01T00:27:03+0200 - cs_5960_ast.model - INFO     | Starting epoch: 132
+2026-05-01T00:31:43+0200 - cs_5960_ast.model - INFO     | Starting epoch: 133
+2026-05-01T00:36:26+0200 - cs_5960_ast.model - INFO     | Starting epoch: 134
+2026-05-01T00:41:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 135
+2026-05-01T00:45:49+0200 - cs_5960_ast.model - INFO     | Starting epoch: 136
+2026-05-01T00:50:26+0200 - cs_5960_ast.model - INFO     | Starting epoch: 137
+2026-05-01T00:55:11+0200 - cs_5960_ast.model - INFO     | Starting epoch: 138
+2026-05-01T00:59:46+0200 - cs_5960_ast.model - INFO     | Starting epoch: 139
+2026-05-01T01:04:28+0200 - cs_5960_ast.model - INFO     | Starting epoch: 140
+2026-05-01T01:09:48+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 140
+2026-05-01T01:09:48+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -9.7247%
+2026-05-01T01:09:48+0200 - cs_5960_ast.model - INFO     | Starting epoch: 141
+2026-05-01T01:14:29+0200 - cs_5960_ast.model - INFO     | Starting epoch: 142
+2026-05-01T01:19:12+0200 - cs_5960_ast.model - INFO     | Starting epoch: 143
+2026-05-01T01:23:55+0200 - cs_5960_ast.model - INFO     | Starting epoch: 144
+2026-05-01T01:28:38+0200 - cs_5960_ast.model - INFO     | Starting epoch: 145
+2026-05-01T01:33:16+0200 - cs_5960_ast.model - INFO     | Starting epoch: 146
+2026-05-01T01:37:58+0200 - cs_5960_ast.model - INFO     | Starting epoch: 147
+2026-05-01T01:42:37+0200 - cs_5960_ast.model - INFO     | Starting epoch: 148
+2026-05-01T01:47:21+0200 - cs_5960_ast.model - INFO     | Starting epoch: 149
+2026-05-01T01:52:04+0200 - cs_5960_ast.model - INFO     | Starting epoch: 150
+2026-05-01T01:57:13+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 150
+2026-05-01T01:57:13+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: +8.9425%
+2026-05-01T01:57:13+0200 - cs_5960_ast.model - INFO     | Starting epoch: 151
+2026-05-01T02:01:57+0200 - cs_5960_ast.model - INFO     | Starting epoch: 152
+2026-05-01T02:06:50+0200 - cs_5960_ast.model - INFO     | Starting epoch: 153
+2026-05-01T02:11:26+0200 - cs_5960_ast.model - INFO     | Starting epoch: 154
+2026-05-01T02:16:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 155
+2026-05-01T02:20:52+0200 - cs_5960_ast.model - INFO     | Starting epoch: 156
+2026-05-01T02:25:28+0200 - cs_5960_ast.model - INFO     | Starting epoch: 157
+2026-05-01T02:30:10+0200 - cs_5960_ast.model - INFO     | Starting epoch: 158
+2026-05-01T02:34:55+0200 - cs_5960_ast.model - INFO     | Starting epoch: 159
+2026-05-01T02:39:36+0200 - cs_5960_ast.model - INFO     | Starting epoch: 160
+2026-05-01T02:44:34+0200 - cs_5960_ast - INFO     | Checkpoint at epoch: 160
+2026-05-01T02:44:35+0200 - cs_5960_ast - INFO     | MSE change last 10 epochs: -3.9323%
+2026-05-01T02:44:35+0200 - cs_5960_ast - INFO     | Total training time: 13:02:44.818211
+2026-05-01T02:44:35+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator G: 4.3e6
+2026-05-01T02:44:35+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator GE: 4.3e6
+2026-05-01T02:44:35+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Discriminator: 1.4e6
+2026-05-01T02:46:06+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:00:50.809940
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Summary of memory use in program:
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Accelerator: NVIDIA H200 NVL
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Total memory: 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 13.84 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 21.10 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 21.10 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 15.06%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current used/total memory: 7.71 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current memory utilization: 5.50%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Accelerator: NVIDIA H200 NVL
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Total memory: 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Accelerator: NVIDIA H200 NVL
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Total memory: 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Accelerator: NVIDIA H200 NVL
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Total memory: 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Accelerator: NVIDIA H200 NVL
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Total memory: 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | Accelerator: NVIDIA H200 NVL
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Total memory: 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 140.06 GB
+2026-05-01T02:46:57+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-01T02:47:03+0200 - cs_5960_ast - INFO     | Run complete.
