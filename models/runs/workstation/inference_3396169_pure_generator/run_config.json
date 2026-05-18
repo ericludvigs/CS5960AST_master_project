@@ -1,0 +1,189 @@
+{
+    "config_name": "workstation_config",
+    "batch_size": 1,
+    "shuffle_dataloader": false,
+    "num_epochs": 50,
+    "batch_break_point": null,
+    "max_usable_threads_per_gpu_cap": 32,
+    "dataloader_num_workers": 4,
+    "checkpoint_freq": 10,
+    "load_state": true,
+    "data_dir_path": "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data",
+    "temp_files_path": "/mn/stornext/d5/data/ericlu/CS5960AST",
+    "output_dir_path": "/mn/stornext/d5/data/ericlu/CS5960AST/models/runs/workstation",
+    "norm_config": {
+        "ember2_norms.dm_in_norm": {
+            "eps": 1e-08,
+            "exponent": 0.7,
+            "log_mult": 0.4
+        },
+        "ember2_norms.dm_norm": {
+            "eps": 1e-08,
+            "exponent": 0.7,
+            "log_mult": 0.4
+        },
+        "ember2_norms.E_norm": {
+            "exponent": -3,
+            "m_t_mult": 3.193,
+            "m_t_add": 5.346
+        },
+        "ember2_norms.gas_norm": {
+            "exponent": 1.3,
+            "log_mult": 0.7692307692307692
+        },
+        "ember2_norms.T_norm": {
+            "exponent": -0.5,
+            "m_t_mult": -0.093,
+            "m_t_add": 5.346
+        }
+    },
+    "net_config": {
+        "style_dim": 64,
+        "context_dim": 7,
+        "style_depth": 5,
+        "inp_channels": 1,
+        "out_channels": 4,
+        "filters": [
+            16,
+            32,
+            64,
+            128
+        ],
+        "num_noise_ch": 8,
+        "beta_ema": 0.995,
+        "lr_g": 1e-05,
+        "lr_d": 1e-05,
+        "betas_g": [
+            0.5,
+            0.9
+        ],
+        "betas_d": [
+            0.5,
+            0.9
+        ],
+        "use_noise": false,
+        "use_adversarial": false
+    },
+    "train_dataset_config": {
+        "dataset_name": "Training",
+        "in_patterns": [
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/DMO-*-*.npy"
+        ],
+        "tgt_patterns": [
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/DM-*-*.npy",
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/E-*-*.npy",
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/gas-*-*.npy",
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/T-*-*.npy"
+        ],
+        "style_pattern": "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/style-*-*.npy",
+        "in_filter_patterns": [
+            ".*DMO-(?:\\d{3,}|[^1]\\d*|1[^0]+)-(0|1|5|10|20|27|33)\\.npy"
+        ],
+        "tgt_filter_patterns": [
+            ".*DM-(?:\\d{3,}|[^1]\\d*|1[^0]+)-(0|1|5|10|20|27|33)\\.npy",
+            ".*E-(?:\\d{3,}|[^1]\\d*|1[^0]+)-(0|1|5|10|20|27|33)\\.npy",
+            ".*gas-(?:\\d{3,}|[^1]\\d*|1[^0]+)-(0|1|5|10|20|27|33)\\.npy",
+            ".*T-(?:\\d{3,}|[^1]\\d*|1[^0]+)-(0|1|5|10|20|27|33)\\.npy"
+        ],
+        "style_filter_pattern": ".*style-(?:\\d{3,}|[^1]\\d*|1[^0]+)-(0|1|5|10|20|27|33)\\.npy",
+        "in_norms": [
+            "ember2_norms.dm_in_norm"
+        ],
+        "tgt_norms": [
+            "ember2_norms.dm_norm",
+            "ember2_norms.E_norm",
+            "ember2_norms.gas_norm",
+            "ember2_norms.T_norm"
+        ],
+        "callback_at": null,
+        "augment": null,
+        "aug_shift": null,
+        "aug_add": null,
+        "aug_mul": null,
+        "crop": 128,
+        "crop_start": null,
+        "crop_stop": null,
+        "crop_step": null,
+        "in_pad": 2,
+        "tgt_pad": 0,
+        "scale_factor": 1,
+        "shuffle": true,
+        "div_data": false,
+        "div_shuffle_dist": 1
+    },
+    "test_dataset_config": {
+        "dataset_name": "Test",
+        "in_patterns": [
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/DMO-*-*.npy"
+        ],
+        "tgt_patterns": [
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/DM-*-*.npy",
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/E-*-*.npy",
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/gas-*-*.npy",
+            "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/T-*-*.npy"
+        ],
+        "style_pattern": "/mn/stornext/d13/euclid_nobackup/dennisfr/master-project/data/train_smudgy/style-*-*.npy",
+        "in_filter_patterns": [
+            ".*DMO-(10|199|145)-(0|1|33)\\.npy"
+        ],
+        "tgt_filter_patterns": [
+            ".*DM-(10|199|145)-(0|1|33)\\.npy",
+            ".*E-(10|199|145)-(0|1|33)\\.npy",
+            ".*gas-(10|199|145)-(0|1|33)\\.npy",
+            ".*T-(10|199|145)-(0|1|33)\\.npy"
+        ],
+        "style_filter_pattern": ".*style-(10|199|145)-(0|1|33)\\.npy",
+        "in_norms": [
+            "ember2_norms.dm_in_norm"
+        ],
+        "tgt_norms": [
+            "ember2_norms.dm_norm",
+            "ember2_norms.E_norm",
+            "ember2_norms.gas_norm",
+            "ember2_norms.T_norm"
+        ],
+        "callback_at": null,
+        "augment": null,
+        "aug_shift": null,
+        "aug_add": null,
+        "aug_mul": null,
+        "crop": 128,
+        "crop_start": 64,
+        "crop_stop": 192,
+        "crop_step": null,
+        "in_pad": 2,
+        "tgt_pad": 0,
+        "scale_factor": 1,
+        "shuffle": true,
+        "div_data": false,
+        "div_shuffle_dist": 1,
+        "BoxSize": 25.0,
+        "MAS": "None"
+    },
+    "local_run": false,
+    "distributed": true,
+    "local_rank": 0,
+    "local_world_size": 2,
+    "total_world_size": 2,
+    "dist_backend": "nccl",
+    "dist_url": "env://",
+    "run_name": "inference_3396169_pure_generator",
+    "slurm_job_id": null,
+    "load_state_strict": true,
+    "checkpoint_load_path": "/mn/stornext/d5/data/ericlu/CS5960AST/models/runs/node/3396169/model_checkpoints/model_state_161.pt",
+    "output_dir": "/mn/stornext/d5/data/ericlu/CS5960AST/models/runs/workstation/inference_3396169_pure_generator",
+    "figure_dir": "/mn/stornext/d5/data/ericlu/CS5960AST/models/runs/workstation/inference_3396169_pure_generator/output_figures",
+    "logger": "cs_5960_ast",
+    "device": "cuda:0",
+    "torch_version": "2.9.1+cu126",
+    "cuda_version": "12.6",
+    "accelerator_count": 2,
+    "accelerator_0_name": "Tesla P100-PCIE-16GB",
+    "accelerator_0_total_memory_GB": "15.89 GB",
+    "accelerator_1_name": "Tesla P100-PCIE-16GB",
+    "accelerator_1_total_memory_GB": "15.89 GB",
+    "detected_cpu_threads": 72,
+    "max_usable_threads_per_gpu": 32,
+    "debug_prints": true,
+    "pin_memory": true
+}

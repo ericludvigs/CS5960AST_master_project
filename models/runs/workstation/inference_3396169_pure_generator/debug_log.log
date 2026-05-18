@@ -1,0 +1,403 @@
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | - Debug prints enabled -
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | - Workstation/desktop environment set, using workstation config -
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | Using settings: workstation_config
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | LOCAL_RANK var: 0, program argument: 0
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | SLURM_PROCID var: None, program argument: 0
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | AST job id: inference_3396169_pure_generator
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | Slurm job id: None
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | Torch env id: 83baf3d0-a051-43f3-bb1f-6cd8a0ba9b19
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | PyTorch device: cuda:0, on process 0
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | 
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | ------------------------------------------
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | Torch version: 2.9.1+cu126
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | CUDA version: 12.6
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | Number of accelerators (GPUs) processes should have visible: 2
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | Accelerator info from process 0
+| Accelerator 0: Tesla P100-PCIE-16GB
+| Total memory: 15.89 GB
+| Allocated: 0.00 GB
+| Reserved: 0.00 GB
+| Free/total memory: 15.64 GB / 15.89 GB
+| Memory Utilization: 1.59%
+
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | | Full CUDA properties for accelerator 0:
+|    _CudaDeviceProperties(name='Tesla P100-PCIE-16GB', major=6, minor=0, total_memory=16269MB, multi_processor_count=56, uuid=c1cd9136-7359-043a-f295-793304e61179, pci_bus_id=2, pci_device_id=0, pci_domain_id=0, L2_cache_size=4MB)
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | | Full CUDA properties for accelerator 1:
+|    _CudaDeviceProperties(name='Tesla P100-PCIE-16GB', major=6, minor=0, total_memory=16269MB, multi_processor_count=56, uuid=8c858320-7f89-b927-4c81-6c608a455b78, pci_bus_id=130, pci_device_id=0, pci_domain_id=0, L2_cache_size=4MB)
+2026-05-18T04:02:18+0200 - cs_5960_ast - INFO     | ------------------------------------------
+
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | Wrote run config to: /mn/stornext/d5/data/ericlu/CS5960AST/models/runs/workstation/inference_3396169_pure_generator/run_config.json
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | Script running from: /mn/stornext/d5/data/ericlu/CS5960AST
+2026-05-18T04:02:18+0200 - cs_5960_ast - DEBUG    | Input args=Namespace(run_id='testing_3', rng_seed=None, debug=False, debug_env_var_dump=False, load_state=None, load_state_strict=True, load_path='/mn/stornext/d5/data/ericlu/CS5960AST/models/runs/node/3396169/model_checkpoints/model_state_161.pt', distributed=False, dist_backend='nccl', dist_url='env://', local_rank=0, local_world_size=-1, world_size=-1, mode='infer')
+2026-05-18T04:02:19+0200 - cs_5960_ast - DEBUG    | Testing dataloader info:
+2026-05-18T04:02:19+0200 - cs_5960_ast - DEBUG    | Input channels: [1]
+2026-05-18T04:02:19+0200 - cs_5960_ast - DEBUG    | Output channels: [1, 1, 1, 1]
+2026-05-18T04:02:19+0200 - cs_5960_ast - DEBUG    | Style size: 7
+2026-05-18T04:02:19+0200 - cs_5960_ast - DEBUG    | Dataset size: [256 256 256]
+2026-05-18T04:02:19+0200 - cs_5960_ast - DEBUG    | Dataset ndim: 3
+2026-05-18T04:02:22+0200 - cs_5960_ast - DEBUG    | Found checkpoint file: /mn/stornext/d5/data/ericlu/CS5960AST/models/runs/node/3396169/model_checkpoints/model_state_161.pt
+2026-05-18T04:02:23+0200 - cs_5960_ast - INFO     | Model state at epoch 161, step 139521 loaded from file.
+2026-05-18T04:02:23+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator G: 4.4e6
+2026-05-18T04:02:23+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator GE: 4.4e6
+2026-05-18T04:02:23+0200 - cs_5960_ast.model - INFO     | Estimate of parameters in Discriminator: 1.4e6
+2026-05-18T04:02:23+0200 - cs_5960_ast - DEBUG    | Test loader batch count: 4
+2026-05-18T04:02:23+0200 - cs_5960_ast - WARNING  | 
+            Warning: test dataloader has more than one entry (4);
+            this works with DIFFERENT datasets and only one crop per field;
+            but is NOT supported with multiple crops per same field.
+
+            Multiple crops per field will result in overwriting each others plots, and only the last will be kept.
+
+            Field results from different simulations will be properly saved.
+
+            For the test set, use `crop=None` to pass an entire field at once.
+
+            Process: 0
+            
+2026-05-18T04:02:24+0200 - cs_5960_ast - DEBUG    | Running model on test data from simulation: sim_10_0_epoch_161
+2026-05-18T04:02:24+0200 - cs_5960_ast - DEBUG    | Input files: ['DMO-10-0.npy'], Target files: ['DM-10-0.npy', 'E-10-0.npy', 'gas-10-0.npy', 'T-10-0.npy']
+2026-05-18T04:02:24+0200 - cs_5960_ast - DEBUG    | Input vector shape: torch.Size([1, 1, 132, 132, 132]), with 2+2 padding
+2026-05-18T04:02:24+0200 - cs_5960_ast - DEBUG    | Target vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:03:12+0200 - cs_5960_ast - DEBUG    | Output vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:07:23+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-18T04:09:29+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-18T04:09:29+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:06.273535
+2026-05-18T04:09:29+0200 - cs_5960_ast - DEBUG    | Running model on test data from simulation: sim_145_33_epoch_161
+2026-05-18T04:09:29+0200 - cs_5960_ast - DEBUG    | Input files: ['DMO-145-33.npy'], Target files: ['DM-145-33.npy', 'E-145-33.npy', 'gas-145-33.npy', 'T-145-33.npy']
+2026-05-18T04:09:29+0200 - cs_5960_ast - DEBUG    | Input vector shape: torch.Size([1, 1, 132, 132, 132]), with 2+2 padding
+2026-05-18T04:09:29+0200 - cs_5960_ast - DEBUG    | Target vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:09:30+0200 - cs_5960_ast - DEBUG    | Output vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:13:34+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-18T04:15:39+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-18T04:15:39+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:05.455722
+2026-05-18T04:15:39+0200 - cs_5960_ast - DEBUG    | Running model on test data from simulation: sim_145_1_epoch_161
+2026-05-18T04:15:39+0200 - cs_5960_ast - DEBUG    | Input files: ['DMO-145-1.npy'], Target files: ['DM-145-1.npy', 'E-145-1.npy', 'gas-145-1.npy', 'T-145-1.npy']
+2026-05-18T04:15:39+0200 - cs_5960_ast - DEBUG    | Input vector shape: torch.Size([1, 1, 132, 132, 132]), with 2+2 padding
+2026-05-18T04:15:39+0200 - cs_5960_ast - DEBUG    | Target vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:15:40+0200 - cs_5960_ast - DEBUG    | Output vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:19:48+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-18T04:21:52+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-18T04:21:52+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:03.908664
+2026-05-18T04:21:52+0200 - cs_5960_ast - DEBUG    | Running model on test data from simulation: sim_10_33_epoch_161
+2026-05-18T04:21:52+0200 - cs_5960_ast - DEBUG    | Input files: ['DMO-10-33.npy'], Target files: ['DM-10-33.npy', 'E-10-33.npy', 'gas-10-33.npy', 'T-10-33.npy']
+2026-05-18T04:21:52+0200 - cs_5960_ast - DEBUG    | Input vector shape: torch.Size([1, 1, 132, 132, 132]), with 2+2 padding
+2026-05-18T04:21:52+0200 - cs_5960_ast - DEBUG    | Target vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:21:52+0200 - cs_5960_ast - DEBUG    | Output vector shape: torch.Size([1, 4, 128, 128, 128]), with 0+0 padding
+2026-05-18T04:26:03+0200 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:02:03.365816
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | Summary of memory use in program:
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | Accelerator: Tesla P100-PCIE-16GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Total memory: 15.89 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 4.12 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 6.02 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 6.02 GB / 15.89 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 37.91%
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Current used/total memory: 6.02 GB / 15.89 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Current memory utilization: 37.91%
+2026-05-18T04:28:07+0200 - cs_5960_ast - DEBUG    | 
+OrderedDict([('active.all.allocated', 1753),
+             ('active.all.current', 271),
+             ('active.all.freed', 1482),
+             ('active.all.peak', 808),
+             ('active.large_pool.allocated', 410),
+             ('active.large_pool.current', 17),
+             ('active.large_pool.freed', 393),
+             ('active.large_pool.peak', 45),
+             ('active.small_pool.allocated', 1343),
+             ('active.small_pool.current', 254),
+             ('active.small_pool.freed', 1089),
+             ('active.small_pool.peak', 763),
+             ('active_bytes.all.allocated', 47349304320),
+             ('active_bytes.all.current', 90760704),
+             ('active_bytes.all.freed', 47258543616),
+             ('active_bytes.all.peak', 4420311552),
+             ('active_bytes.large_pool.allocated', 47230527488),
+             ('active_bytes.large_pool.current', 75640320),
+             ('active_bytes.large_pool.freed', 47154887168),
+             ('active_bytes.large_pool.peak', 4404940288),
+             ('active_bytes.small_pool.allocated', 118776832),
+             ('active_bytes.small_pool.current', 15120384),
+             ('active_bytes.small_pool.freed', 103656448),
+             ('active_bytes.small_pool.peak', 38217728),
+             ('allocated_bytes.all.allocated', 47349304320),
+             ('allocated_bytes.all.current', 90760704),
+             ('allocated_bytes.all.freed', 47258543616),
+             ('allocated_bytes.all.peak', 4420311552),
+             ('allocated_bytes.large_pool.allocated', 47230527488),
+             ('allocated_bytes.large_pool.current', 75640320),
+             ('allocated_bytes.large_pool.freed', 47154887168),
+             ('allocated_bytes.large_pool.peak', 4404940288),
+             ('allocated_bytes.small_pool.allocated', 118776832),
+             ('allocated_bytes.small_pool.current', 15120384),
+             ('allocated_bytes.small_pool.freed', 103656448),
+             ('allocated_bytes.small_pool.peak', 38217728),
+             ('allocation.all.allocated', 1753),
+             ('allocation.all.current', 271),
+             ('allocation.all.freed', 1482),
+             ('allocation.all.peak', 808),
+             ('allocation.large_pool.allocated', 410),
+             ('allocation.large_pool.current', 17),
+             ('allocation.large_pool.freed', 393),
+             ('allocation.large_pool.peak', 45),
+             ('allocation.small_pool.allocated', 1343),
+             ('allocation.small_pool.current', 254),
+             ('allocation.small_pool.freed', 1089),
+             ('allocation.small_pool.peak', 763),
+             ('inactive_split.all.allocated', 375),
+             ('inactive_split.all.current', 7),
+             ('inactive_split.all.freed', 368),
+             ('inactive_split.all.peak', 16),
+             ('inactive_split.large_pool.allocated', 110),
+             ('inactive_split.large_pool.current', 4),
+             ('inactive_split.large_pool.freed', 106),
+             ('inactive_split.large_pool.peak', 10),
+             ('inactive_split.small_pool.allocated', 265),
+             ('inactive_split.small_pool.current', 3),
+             ('inactive_split.small_pool.freed', 262),
+             ('inactive_split.small_pool.peak', 10),
+             ('inactive_split_bytes.all.allocated', 23296342016),
+             ('inactive_split_bytes.all.current', 30874112),
+             ('inactive_split_bytes.all.freed', 23265467904),
+             ('inactive_split_bytes.all.peak', 1217999360),
+             ('inactive_split_bytes.large_pool.allocated', 23160015872),
+             ('inactive_split_bytes.large_pool.current', 29217280),
+             ('inactive_split_bytes.large_pool.freed', 23130798592),
+             ('inactive_split_bytes.large_pool.peak', 1216343040),
+             ('inactive_split_bytes.small_pool.allocated', 136326144),
+             ('inactive_split_bytes.small_pool.current', 1656832),
+             ('inactive_split_bytes.small_pool.freed', 134669312),
+             ('inactive_split_bytes.small_pool.peak', 10670592),
+             ('max_split_size', -1),
+             ('num_alloc_retries', 0),
+             ('num_device_alloc', 38),
+             ('num_device_free', 19),
+             ('num_ooms', 0),
+             ('num_sync_all_streams', 17),
+             ('oversize_allocations.allocated', 0),
+             ('oversize_allocations.current', 0),
+             ('oversize_allocations.freed', 0),
+             ('oversize_allocations.peak', 0),
+             ('oversize_segments.allocated', 0),
+             ('oversize_segments.current', 0),
+             ('oversize_segments.freed', 0),
+             ('oversize_segments.peak', 0),
+             ('requested_bytes.all.allocated', 47322090502),
+             ('requested_bytes.all.current', 90724952),
+             ('requested_bytes.all.freed', 47231365550),
+             ('requested_bytes.all.peak', 4417299636),
+             ('requested_bytes.large_pool.allocated', 47203531568),
+             ('requested_bytes.large_pool.current', 75640108),
+             ('requested_bytes.large_pool.freed', 47127891460),
+             ('requested_bytes.large_pool.peak', 4401965100),
+             ('requested_bytes.small_pool.allocated', 118558934),
+             ('requested_bytes.small_pool.current', 15084844),
+             ('requested_bytes.small_pool.freed', 103474090),
+             ('requested_bytes.small_pool.peak', 38082728),
+             ('reserved_bytes.all.allocated', 11102322688),
+             ('reserved_bytes.all.current', 6467616768),
+             ('reserved_bytes.all.freed', 4634705920),
+             ('reserved_bytes.all.peak', 6467616768),
+             ('reserved_bytes.large_pool.allocated', 11058282496),
+             ('reserved_bytes.large_pool.current', 6448742400),
+             ('reserved_bytes.large_pool.freed', 4609540096),
+             ('reserved_bytes.large_pool.peak', 6448742400),
+             ('reserved_bytes.small_pool.allocated', 44040192),
+             ('reserved_bytes.small_pool.current', 18874368),
+             ('reserved_bytes.small_pool.freed', 25165824),
+             ('reserved_bytes.small_pool.peak', 39845888),
+             ('segment.all.allocated', 38),
+             ('segment.all.current', 19),
+             ('segment.all.freed', 19),
+             ('segment.all.peak', 26),
+             ('segment.large_pool.allocated', 17),
+             ('segment.large_pool.current', 10),
+             ('segment.large_pool.freed', 7),
+             ('segment.large_pool.peak', 10),
+             ('segment.small_pool.allocated', 21),
+             ('segment.small_pool.current', 9),
+             ('segment.small_pool.freed', 12),
+             ('segment.small_pool.peak', 19)])
+
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | Accelerator: Tesla P100-PCIE-16GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Total memory: 15.89 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 15.89 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 15.89 GB
+2026-05-18T04:28:07+0200 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-05-18T04:28:07+0200 - cs_5960_ast - DEBUG    | 
+OrderedDict([('active.all.allocated', 0),
+             ('active.all.current', 0),
+             ('active.all.freed', 0),
+             ('active.all.peak', 0),
+             ('active.large_pool.allocated', 0),
+             ('active.large_pool.current', 0),
+             ('active.large_pool.freed', 0),
+             ('active.large_pool.peak', 0),
+             ('active.small_pool.allocated', 0),
+             ('active.small_pool.current', 0),
+             ('active.small_pool.freed', 0),
+             ('active.small_pool.peak', 0),
+             ('active_bytes.all.allocated', 0),
+             ('active_bytes.all.current', 0),
+             ('active_bytes.all.freed', 0),
+             ('active_bytes.all.peak', 0),
+             ('active_bytes.large_pool.allocated', 0),
+             ('active_bytes.large_pool.current', 0),
+             ('active_bytes.large_pool.freed', 0),
+             ('active_bytes.large_pool.peak', 0),
+             ('active_bytes.small_pool.allocated', 0),
+             ('active_bytes.small_pool.current', 0),
+             ('active_bytes.small_pool.freed', 0),
+             ('active_bytes.small_pool.peak', 0),
+             ('allocated_bytes.all.allocated', 0),
+             ('allocated_bytes.all.current', 0),
+             ('allocated_bytes.all.freed', 0),
+             ('allocated_bytes.all.peak', 0),
+             ('allocated_bytes.large_pool.allocated', 0),
+             ('allocated_bytes.large_pool.current', 0),
+             ('allocated_bytes.large_pool.freed', 0),
+             ('allocated_bytes.large_pool.peak', 0),
+             ('allocated_bytes.small_pool.allocated', 0),
+             ('allocated_bytes.small_pool.current', 0),
+             ('allocated_bytes.small_pool.freed', 0),
+             ('allocated_bytes.small_pool.peak', 0),
+             ('allocation.all.allocated', 0),
+             ('allocation.all.current', 0),
+             ('allocation.all.freed', 0),
+             ('allocation.all.peak', 0),
+             ('allocation.large_pool.allocated', 0),
+             ('allocation.large_pool.current', 0),
+             ('allocation.large_pool.freed', 0),
+             ('allocation.large_pool.peak', 0),
+             ('allocation.small_pool.allocated', 0),
+             ('allocation.small_pool.current', 0),
+             ('allocation.small_pool.freed', 0),
+             ('allocation.small_pool.peak', 0),
+             ('inactive_split.all.allocated', 0),
+             ('inactive_split.all.current', 0),
+             ('inactive_split.all.freed', 0),
+             ('inactive_split.all.peak', 0),
+             ('inactive_split.large_pool.allocated', 0),
+             ('inactive_split.large_pool.current', 0),
+             ('inactive_split.large_pool.freed', 0),
+             ('inactive_split.large_pool.peak', 0),
+             ('inactive_split.small_pool.allocated', 0),
+             ('inactive_split.small_pool.current', 0),
+             ('inactive_split.small_pool.freed', 0),
+             ('inactive_split.small_pool.peak', 0),
+             ('inactive_split_bytes.all.allocated', 0),
+             ('inactive_split_bytes.all.current', 0),
+             ('inactive_split_bytes.all.freed', 0),
+             ('inactive_split_bytes.all.peak', 0),
+             ('inactive_split_bytes.large_pool.allocated', 0),
+             ('inactive_split_bytes.large_pool.current', 0),
+             ('inactive_split_bytes.large_pool.freed', 0),
+             ('inactive_split_bytes.large_pool.peak', 0),
+             ('inactive_split_bytes.small_pool.allocated', 0),
+             ('inactive_split_bytes.small_pool.current', 0),
+             ('inactive_split_bytes.small_pool.freed', 0),
+             ('inactive_split_bytes.small_pool.peak', 0),
+             ('max_split_size', -1),
+             ('num_alloc_retries', 0),
+             ('num_device_alloc', 0),
+             ('num_device_free', 0),
+             ('num_ooms', 0),
+             ('num_sync_all_streams', 17),
+             ('oversize_allocations.allocated', 0),
+             ('oversize_allocations.current', 0),
+             ('oversize_allocations.freed', 0),
+             ('oversize_allocations.peak', 0),
+             ('oversize_segments.allocated', 0),
+             ('oversize_segments.current', 0),
+             ('oversize_segments.freed', 0),
+             ('oversize_segments.peak', 0),
+             ('requested_bytes.all.allocated', 0),
+             ('requested_bytes.all.current', 0),
+             ('requested_bytes.all.freed', 0),
+             ('requested_bytes.all.peak', 0),
+             ('requested_bytes.large_pool.allocated', 0),
+             ('requested_bytes.large_pool.current', 0),
+             ('requested_bytes.large_pool.freed', 0),
+             ('requested_bytes.large_pool.peak', 0),
+             ('requested_bytes.small_pool.allocated', 0),
+             ('requested_bytes.small_pool.current', 0),
+             ('requested_bytes.small_pool.freed', 0),
+             ('requested_bytes.small_pool.peak', 0),
+             ('reserved_bytes.all.allocated', 0),
+             ('reserved_bytes.all.current', 0),
+             ('reserved_bytes.all.freed', 0),
+             ('reserved_bytes.all.peak', 0),
+             ('reserved_bytes.large_pool.allocated', 0),
+             ('reserved_bytes.large_pool.current', 0),
+             ('reserved_bytes.large_pool.freed', 0),
+             ('reserved_bytes.large_pool.peak', 0),
+             ('reserved_bytes.small_pool.allocated', 0),
+             ('reserved_bytes.small_pool.current', 0),
+             ('reserved_bytes.small_pool.freed', 0),
+             ('reserved_bytes.small_pool.peak', 0),
+             ('segment.all.allocated', 0),
+             ('segment.all.current', 0),
+             ('segment.all.freed', 0),
+             ('segment.all.peak', 0),
+             ('segment.large_pool.allocated', 0),
+             ('segment.large_pool.current', 0),
+             ('segment.large_pool.freed', 0),
+             ('segment.large_pool.peak', 0),
+             ('segment.small_pool.allocated', 0),
+             ('segment.small_pool.current', 0),
+             ('segment.small_pool.freed', 0),
+             ('segment.small_pool.peak', 0)])
+
+2026-05-18T04:28:07+0200 - cs_5960_ast - DEBUG    | `torch.cuda.memory_summary`:
+|===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |  88633 KiB |   4215 MiB |  45155 MiB |  45069 MiB |
+|       from large pool |  73867 KiB |   4200 MiB |  45042 MiB |  44970 MiB |
+|       from small pool |  14766 KiB |     36 MiB |    113 MiB |     98 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |  88633 KiB |   4215 MiB |  45155 MiB |  45069 MiB |
+|       from large pool |  73867 KiB |   4200 MiB |  45042 MiB |  44970 MiB |
+|       from small pool |  14766 KiB |     36 MiB |    113 MiB |     98 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |  88598 KiB |   4212 MiB |  45129 MiB |  45043 MiB |
+|       from large pool |  73867 KiB |   4198 MiB |  45016 MiB |  44944 MiB |
+|       from small pool |  14731 KiB |     36 MiB |    113 MiB |     98 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   6168 MiB |   6168 MiB |  10588 MiB |   4420 MiB |
+|       from large pool |   6150 MiB |   6150 MiB |  10546 MiB |   4396 MiB |
+|       from small pool |     18 MiB |     38 MiB |     42 MiB |     24 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  30150 KiB |   1161 MiB |  22217 MiB |  22187 MiB |
+|       from large pool |  28532 KiB |   1159 MiB |  22087 MiB |  22059 MiB |
+|       from small pool |   1618 KiB |     10 MiB |    130 MiB |    128 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     271    |     808    |    1753    |    1482    |
+|       from large pool |      17    |      45    |     410    |     393    |
+|       from small pool |     254    |     763    |    1343    |    1089    |
+|---------------------------------------------------------------------------|
+| Active allocs         |     271    |     808    |    1753    |    1482    |
+|       from large pool |      17    |      45    |     410    |     393    |
+|       from small pool |     254    |     763    |    1343    |    1089    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      19    |      26    |      38    |      19    |
+|       from large pool |      10    |      10    |      17    |       7    |
+|       from small pool |       9    |      19    |      21    |      12    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       7    |      16    |     375    |     368    |
+|       from large pool |       4    |      10    |     110    |     106    |
+|       from small pool |       3    |      10    |     265    |     262    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+2026-05-18T04:28:15+0200 - cs_5960_ast - INFO     | Run complete.
