@@ -1,0 +1,143 @@
+[project]
+name = "cs_5960_ast"
+version = "1.0.0"
+description = "Baryon inpainting"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "ipykernel>=7.1.0",
+  "ipython>=9.7.0",
+  "jupyter>=1.1.1",
+  "jupytext>=1.17.3",
+  "matplotlib>=3.10.3",
+  "numpy>=2.3.5",
+  "pandas>=2.3.1",
+  #"pylians>=0.12 ; sys_platform == 'linux'", # this package fails to install on multiple systems
+  "psutil>=7.1.1",
+  "pyfftw>=0.15.1",
+  "torch>=2.9.1",
+  "torchvision>=0.24.1",
+  "tqdm>=4.67.1",
+  "tensorboard>=2.20.0",
+]
+# do not upload to pypi
+classifiers = ["Private :: Do Not Upload"]
+
+# use command to make requirements file:
+# $ uv export --format requirements.txt --no-hashes >> requirements.txt
+#
+# run project on command line with `uv run cs_5960_ast`
+[project.scripts]
+cs_5960_ast = "cs_5960_ast.entry_point:main"
+
+# use uv for managing project
+[build-system]
+requires = ["uv_build>=0.8.5,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
+
+# see https://docs.astral.sh/uv/guides/integration/pytorch/#using-a-pytorch-index
+# using CUDA for windows/linux, fall back to pypi for mac (pypi version does allow MPS on mac, it's not pure CPU)
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }
+]
+torchvision = [
+  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+# during development include testing, type hinting, and linting
+[dependency-groups]
+dev = [
+  "pytest>=9.0.2",
+  "ruff>=0.15.5",
+  "ty>=0.0.23",
+  "torch-tb-profiler>=0.4.3",
+  "tensorboard-plugin-profile>=2.21.5",
+]
+# scipy and scikit are not necessary for main code
+optional = ["scikit-learn>=1.7.1", "scipy>=1.16.3"]
+
+# ruff setup
+[tool.ruff]
+line-length = 132 # 80 width is too short on modern screens, this is set to how many characters comfortably fit on my laptop screen
+indent-width = 4 # 4 indent is standard
+target-version = "py313" # python 3.13
+
+[tool.ruff.lint]
+select = [
+  "ALL", # default to all, then exclude specific rules. Lot of helpful rules you wouldn't know about otherwise
+  "D101", # override ignoring all D100 because public classes being documented is helpful
+  "RET502", # add this back after ignoring other RET500, very niche rule but clearer return statements if it applies
+
+]
+# rules to exclude is very opinionated, but that's fine, it just needs to be consistent
+ignore = [
+  "C901", # what does this even mean? extremely arbitrary in practice
+  "COM812", # covered by formatter
+  "D1", # short functions with obvious names don't benefit from writing out the name in a docstring. Too many errors when developing new code
+  "D212", # google convention for docstrings, we want numpy
+  "D400", # periods in docstrings look dumb
+  "D401", # what does this even mean? the linter sure doesn't seem to know and gives false errors all the time
+  "D415", # should be disabled with numpy convention
+  "ERA001", # commented out code is fine, also false positives
+  "FA100", # this is obsolete, don't need python<3.10 (documentation is wrong about automatic shutoff)
+  "FA102", # also obsolete
+  "G004", # premature micro-optimization, there are no expensive f-strings being logged millions of times in this project
+  "N806", # need upper case sometimes to distinguish scientific functions/variables with established case, like T
+  "PIE790", # "unnecessary" in description is straight up wrong, following this rule causes syntax/indentation errors
+  "PLR0912", # not helpful in practice, triggers on complex functions rather than trivial functions with complex implementations
+  "PLR0913", # too many arguments in a function, questionably helpful with hard treshold
+  "PLR0915", # example given rarely applies, triggers on anything remotely machine learning-related instead
+  "PLR1711", # implicit returns are unclear
+  "PLW2901", # false positives whenever you use the loop variable for anything (not when reassigned, in ANY statement at all)
+  "RET5", # these conflict with themselves, and make no sense in general
+  "S101", # "use of assert detected", simple tests are useful, actually
+  "S311", # triggers on every single possible rng use, despite documentation, which is counterproductive
+  "SIM108", # not restricted to only trivial if-else blocks, unreadable on complex code
+  "T2", # print statements are useful, actually
+  "TD002", # this is not a hundred-person prodution codebase, TODOs with formal author tag are not helpful
+  "TD003", # same, there are no tickets or assignments to even link to
+
+]
+
+# use numpy convention
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+# consistency
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+# add F as a common alias (used all over in torch code)
+[tool.ruff.lint.flake8-import-conventions.extend-aliases]
+"torch.nn.functional" = "F"
+
+# ignore F from torch.nn.functional to avoid rule N812, should not trigger on a standard alias
+# see also: https://github.com/astral-sh/ruff/issues/18310
+[tool.ruff.lint.pep8-naming]
+ignore-names = ["F"]
+
+# false positive on unpacking **kwargs
+[tool.ruff.lint.flake8-unused-arguments]
+ignore-variadic-names = true
