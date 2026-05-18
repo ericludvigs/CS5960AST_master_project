@@ -76,9 +76,9 @@ However, these scripts expect `uv` to be installed to simplify package managemen
 The options are:
 
 - Training:
-    - [`run_training.sh`](run_training.sh): Simple, non-distributed unattended training run intended for workstation/desktop pc.
-    - [`run_training_distributed.sh`](run_training_distributed.sh): Distributed variant of the above script that uses `torchrun` for multi-GPU training.
-    - [`distributed_training.slurm`](distributed_training.slurm): The "proper" model training script, intended for use with Slurm on a compute cluster. Set up for use with the Fox supercomputer. Note the `module load` to access `uv`.
+    - [`run_training.sh`](scripts/run_training.sh): Simple, non-distributed unattended training run intended for workstation/desktop pc.
+    - [`run_training_distributed.sh`](scripts/run_training_distributed.sh): Distributed variant of the above script that uses `torchrun` for multi-GPU training.
+    - [`distributed_training.slurm`](scripts/distributed_training.slurm): The "proper" model training script, intended for use with Slurm on a compute cluster. Set up for use with the Fox supercomputer. Note the `module load` to access `uv`.
 
 - Inference:
     - [`run_model_inference.sh`](scripts/run_model_inference.sh): Loads model weights from the specified checkpoint and performs simple inference. Intended for laptops or similar for quick checking of model results. Does NOT run in the background and will output to terminal.
