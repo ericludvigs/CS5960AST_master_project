@@ -1,0 +1,147 @@
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | - Remote node environment set, using remote node config -
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | Using settings: remote_node_config
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | AST job id: 3133149
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | 
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | ------------------------------------------
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | Torch version: 2.9.1+cu126
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | CUDA version: 12.6
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | Number of available accelerators (GPUs) for process 0: 4
+2026-03-17T00:56:41+0100 - cs_5960_ast - INFO     | ------------------------------------------
+
+2026-03-17T00:56:51+0100 - cs_5960_ast - INFO     | Model state at epoch 61, step 48001 loaded from file.
+2026-03-17T00:56:51+0100 - cs_5960_ast.model - INFO     | Starting epoch: 61
+2026-03-17T01:06:30+0100 - cs_5960_ast.model - INFO     | Starting epoch: 62
+2026-03-17T01:15:50+0100 - cs_5960_ast.model - INFO     | Starting epoch: 63
+2026-03-17T01:25:11+0100 - cs_5960_ast.model - INFO     | Starting epoch: 64
+2026-03-17T01:34:32+0100 - cs_5960_ast.model - INFO     | Starting epoch: 65
+2026-03-17T01:43:53+0100 - cs_5960_ast.model - INFO     | Starting epoch: 66
+2026-03-17T01:53:14+0100 - cs_5960_ast.model - INFO     | Starting epoch: 67
+2026-03-17T02:02:35+0100 - cs_5960_ast.model - INFO     | Starting epoch: 68
+2026-03-17T02:11:56+0100 - cs_5960_ast.model - INFO     | Starting epoch: 69
+2026-03-17T02:21:16+0100 - cs_5960_ast.model - INFO     | Starting epoch: 70
+2026-03-17T02:30:37+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 70
+2026-03-17T02:30:39+0100 - cs_5960_ast.model - INFO     | Starting epoch: 71
+2026-03-17T02:40:01+0100 - cs_5960_ast.model - INFO     | Starting epoch: 72
+2026-03-17T02:49:22+0100 - cs_5960_ast.model - INFO     | Starting epoch: 73
+2026-03-17T02:58:43+0100 - cs_5960_ast.model - INFO     | Starting epoch: 74
+2026-03-17T03:08:03+0100 - cs_5960_ast.model - INFO     | Starting epoch: 75
+2026-03-17T03:17:24+0100 - cs_5960_ast.model - INFO     | Starting epoch: 76
+2026-03-17T03:26:46+0100 - cs_5960_ast.model - INFO     | Starting epoch: 77
+2026-03-17T03:36:07+0100 - cs_5960_ast.model - INFO     | Starting epoch: 78
+2026-03-17T03:45:27+0100 - cs_5960_ast.model - INFO     | Starting epoch: 79
+2026-03-17T03:54:49+0100 - cs_5960_ast.model - INFO     | Starting epoch: 80
+2026-03-17T04:04:10+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 80
+2026-03-17T04:04:10+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: -71.6045%
+2026-03-17T04:04:10+0100 - cs_5960_ast.model - INFO     | Starting epoch: 81
+2026-03-17T04:13:32+0100 - cs_5960_ast.model - INFO     | Starting epoch: 82
+2026-03-17T04:22:53+0100 - cs_5960_ast.model - INFO     | Starting epoch: 83
+2026-03-17T04:32:14+0100 - cs_5960_ast.model - INFO     | Starting epoch: 84
+2026-03-17T04:41:35+0100 - cs_5960_ast.model - INFO     | Starting epoch: 85
+2026-03-17T04:50:56+0100 - cs_5960_ast.model - INFO     | Starting epoch: 86
+2026-03-17T05:00:17+0100 - cs_5960_ast.model - INFO     | Starting epoch: 87
+2026-03-17T05:09:37+0100 - cs_5960_ast.model - INFO     | Starting epoch: 88
+2026-03-17T05:18:58+0100 - cs_5960_ast.model - INFO     | Starting epoch: 89
+2026-03-17T05:28:19+0100 - cs_5960_ast.model - INFO     | Starting epoch: 90
+2026-03-17T05:37:40+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 90
+2026-03-17T05:37:40+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: +996.0991%
+2026-03-17T05:37:40+0100 - cs_5960_ast.model - INFO     | Starting epoch: 91
+2026-03-17T05:47:02+0100 - cs_5960_ast.model - INFO     | Starting epoch: 92
+2026-03-17T05:56:23+0100 - cs_5960_ast.model - INFO     | Starting epoch: 93
+2026-03-17T06:05:44+0100 - cs_5960_ast.model - INFO     | Starting epoch: 94
+2026-03-17T06:15:04+0100 - cs_5960_ast.model - INFO     | Starting epoch: 95
+2026-03-17T06:24:25+0100 - cs_5960_ast.model - INFO     | Starting epoch: 96
+2026-03-17T06:33:46+0100 - cs_5960_ast.model - INFO     | Starting epoch: 97
+2026-03-17T06:43:07+0100 - cs_5960_ast.model - INFO     | Starting epoch: 98
+2026-03-17T06:52:28+0100 - cs_5960_ast.model - INFO     | Starting epoch: 99
+2026-03-17T07:01:49+0100 - cs_5960_ast.model - INFO     | Starting epoch: 100
+2026-03-17T07:11:10+0100 - cs_5960_ast - INFO     | Checkpoint at epoch: 100
+2026-03-17T07:11:10+0100 - cs_5960_ast - INFO     | MSE change last 10 epochs: -89.8552%
+2026-03-17T07:11:15+0100 - cs_5960_ast - INFO     | Total training time: 6:14:23.952763
+2026-03-17T07:11:15+0100 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator G: 4.4e6
+2026-03-17T07:11:15+0100 - cs_5960_ast.model - INFO     | Estimate of parameters in Generator GE: 4.4e6
+2026-03-17T07:11:15+0100 - cs_5960_ast.model - INFO     | Estimate of parameters in Discriminator: 1.4e6
+2026-03-17T07:14:43+0100 - cs_5960_ast - INFO     | Calculating power spectra...
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Power spectrum figures saved.
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Total power spectrum calculation time: 0:03:38.570404
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Summary of memory use in program:
+|===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      | 239648 KiB |  23964 MiB |   4257 TiB |   4257 TiB |
+|       from large pool | 174857 KiB |  23902 MiB |   4253 TiB |   4253 TiB |
+|       from small pool |  64790 KiB |     88 MiB |      4 TiB |      4 TiB |
+|---------------------------------------------------------------------------|
+| Active memory         | 239648 KiB |  23964 MiB |   4257 TiB |   4257 TiB |
+|       from large pool | 174857 KiB |  23902 MiB |   4253 TiB |   4253 TiB |
+|       from small pool |  64790 KiB |     88 MiB |      4 TiB |      4 TiB |
+|---------------------------------------------------------------------------|
+| Requested memory      | 238364 KiB |  23956 MiB |   4256 TiB |   4256 TiB |
+|       from large pool | 173771 KiB |  23894 MiB |   4252 TiB |   4252 TiB |
+|       from small pool |  64593 KiB |     88 MiB |      4 TiB |      4 TiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   9766 MiB |  29436 MiB | 173162 MiB | 163396 MiB |
+|       from large pool |   9682 MiB |  29342 MiB | 173058 MiB | 163376 MiB |
+|       from small pool |     84 MiB |     94 MiB |    104 MiB |     20 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   5749 MiB |   9628 MiB |   2812 TiB |   2812 TiB |
+|       from large pool |   5731 MiB |   9613 MiB |   2807 TiB |   2807 TiB |
+|       from small pool |     18 MiB |     22 MiB |      4 TiB |      4 TiB |
+|---------------------------------------------------------------------------|
+| Allocations           |    1242    |    1676    |   74755 K  |   74754 K  |
+|       from large pool |      71    |     216    |   31487 K  |   31487 K  |
+|       from small pool |    1171    |    1471    |   43268 K  |   43267 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |    1242    |    1676    |   74755 K  |   74754 K  |
+|       from large pool |      71    |     216    |   31487 K  |   31487 K  |
+|       from small pool |    1171    |    1471    |   43268 K  |   43267 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      58    |      84    |     180    |     122    |
+|       from large pool |      16    |      37    |     128    |     112    |
+|       from small pool |      42    |      47    |      52    |      10    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |     129    |     141    |   35041 K  |   35041 K  |
+|       from large pool |      22    |      35    |   11885 K  |   11885 K  |
+|       from small pool |     107    |     113    |   23156 K  |   23156 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Accelerator: NVIDIA A100 80GB PCIe
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Total memory: 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak allocated memory: 23.40 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak reserved memory: 28.75 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak used/total memory: 28.75 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak memory utilization: 36.19%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current used/total memory: 9.54 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current memory utilization: 12.01%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Accelerator: NVIDIA A100 80GB PCIe
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Total memory: 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Accelerator: NVIDIA A100 80GB PCIe
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Total memory: 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | Accelerator: NVIDIA A100 80GB PCIe
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Total memory: 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak allocated memory: 0.00 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak reserved memory: 0.00 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak used/total memory: 0.00 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Peak memory utilization: 0.00%
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current used/total memory: 0.00 GB / 79.44 GB
+2026-03-17T07:18:21+0100 - cs_5960_ast - INFO     | | Current memory utilization: 0.00%
+2026-03-17T08:55:21+0100 - cs_5960_ast - INFO     | Run complete.

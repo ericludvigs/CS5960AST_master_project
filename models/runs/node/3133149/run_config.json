@@ -1,0 +1,184 @@
+{
+    "config_name": "remote_node_config",
+    "batch_size": 1,
+    "shuffle_dataloader": false,
+    "num_epochs": 100,
+    "batch_break_point": null,
+    "max_usable_threads_per_gpu_cap": 32,
+    "dataloader_num_workers": 8,
+    "checkpoint_freq": 10,
+    "load_state": true,
+    "data_dir_path": "/fp/projects01/ec12/ec-ericlu/CS5960AST_data",
+    "temp_files_path": "/fp/projects01/ec12/ec-ericlu/CS5960AST",
+    "output_dir_path": "/fp/projects01/ec12/ec-ericlu/CS5960AST/models/runs/node",
+    "norm_config": {
+        "ember2_norms.dm_in_norm": {
+            "eps": 1e-08,
+            "exponent": -3,
+            "log_mult": 0.25
+        },
+        "ember2_norms.dm_norm": {
+            "eps": 1e-08,
+            "exponent": -3,
+            "log_mult": 0.25
+        },
+        "ember2_norms.E_norm": {
+            "exponent": -3,
+            "m_t_mult": -0.193,
+            "m_t_add": 5.346
+        },
+        "ember2_norms.gas_norm": {
+            "exponent": -3,
+            "log_mult": 0.25
+        },
+        "ember2_norms.T_norm": {
+            "exponent": -0.5,
+            "m_t_mult": -0.193,
+            "m_t_add": 5.346
+        }
+    },
+    "net_config": {
+        "style_dim": 64,
+        "context_dim": 7,
+        "style_depth": 5,
+        "inp_channels": 1,
+        "out_channels": 4,
+        "filters": [
+            16,
+            32,
+            64,
+            128
+        ],
+        "beta_ema": 0.995,
+        "lr_g": 1e-05,
+        "lr_d": 1e-05,
+        "betas_g": [
+            0.5,
+            0.9
+        ],
+        "betas_d": [
+            0.5,
+            0.9
+        ],
+        "use_noise": true
+    },
+    "train_dataset_config": {
+        "dataset_name": "Training",
+        "in_patterns": [
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/train/DMO-*-*.npy"
+        ],
+        "tgt_patterns": [
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/train/DM-*-*.npy",
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/train/E-*-*.npy",
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/train/gas-*-*.npy",
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/train/T-*-*.npy"
+        ],
+        "style_pattern": "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/train/style-*-*.npy",
+        "in_filter_patterns": [
+            ".*DMO-.*-(1|5|6|10|20|23|24|27)\\.npy"
+        ],
+        "tgt_filter_patterns": [
+            ".*DM-.*-(1|5|6|10|20|23|24|27)\\.npy",
+            ".*E-.*-(1|5|6|10|20|23|24|27)\\.npy",
+            ".*gas-.*-(1|5|6|10|20|23|24|27)\\.npy",
+            ".*T-.*-(1|5|6|10|20|23|24|27)\\.npy"
+        ],
+        "style_filter_pattern": ".*style-.*-(1|5|6|10|20|23|24|27)\\.npy",
+        "in_norms": [
+            "ember2_norms.dm_in_norm"
+        ],
+        "tgt_norms": [
+            "ember2_norms.dm_norm",
+            "ember2_norms.E_norm",
+            "ember2_norms.gas_norm",
+            "ember2_norms.T_norm"
+        ],
+        "callback_at": null,
+        "augment": null,
+        "aug_shift": null,
+        "aug_add": null,
+        "aug_mul": null,
+        "crop": 128,
+        "crop_start": null,
+        "crop_stop": null,
+        "crop_step": null,
+        "in_pad": 2,
+        "tgt_pad": 0,
+        "scale_factor": 1,
+        "shuffle": true,
+        "div_data": false,
+        "div_shuffle_dist": 1
+    },
+    "test_dataset_config": {
+        "dataset_name": "Test",
+        "in_patterns": [
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/test/DMO-10-2.npy"
+        ],
+        "tgt_patterns": [
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/test/DM-10-2.npy",
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/test/E-10-2.npy",
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/test/gas-10-2.npy",
+            "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/test/T-10-2.npy"
+        ],
+        "style_pattern": "/fp/projects01/ec12/ec-ericlu/CS5960AST_data/test/style-10-2.npy",
+        "in_filter_patterns": null,
+        "tgt_filter_patterns": null,
+        "style_filter_pattern": null,
+        "in_norms": [
+            "ember2_norms.dm_in_norm"
+        ],
+        "tgt_norms": [
+            "ember2_norms.dm_norm",
+            "ember2_norms.E_norm",
+            "ember2_norms.gas_norm",
+            "ember2_norms.T_norm"
+        ],
+        "callback_at": null,
+        "augment": null,
+        "aug_shift": null,
+        "aug_add": null,
+        "aug_mul": null,
+        "crop": 192,
+        "crop_start": 32,
+        "crop_stop": 224,
+        "crop_step": null,
+        "in_pad": 2,
+        "tgt_pad": 0,
+        "scale_factor": 1,
+        "shuffle": true,
+        "div_data": false,
+        "div_shuffle_dist": 1,
+        "BoxSize": 100.0,
+        "MAS": "None"
+    },
+    "local_run": false,
+    "distributed": true,
+    "local_rank": 0,
+    "local_world_size": 4,
+    "total_world_size": 4,
+    "dist_backend": "nccl",
+    "dist_url": "env://",
+    "run_name": "3133149",
+    "slurm_job_id": "3157091",
+    "load_state_strict": true,
+    "checkpoint_load_path": null,
+    "output_dir": "/fp/projects01/ec12/ec-ericlu/CS5960AST/models/runs/node/3133149",
+    "figure_dir": "/fp/projects01/ec12/ec-ericlu/CS5960AST/models/runs/node/3133149/output_figures",
+    "logger": "cs_5960_ast",
+    "device": "cuda:0",
+    "torch_version": "2.9.1+cu126",
+    "cuda_version": "12.6",
+    "accelerator_count": 4,
+    "accelerator_0_name": "NVIDIA A100 80GB PCIe",
+    "accelerator_0_total_memory_GB": "79.44 GB",
+    "accelerator_1_name": "NVIDIA A100 80GB PCIe",
+    "accelerator_1_total_memory_GB": "79.44 GB",
+    "accelerator_2_name": "NVIDIA A100 80GB PCIe",
+    "accelerator_2_total_memory_GB": "79.44 GB",
+    "accelerator_3_name": "NVIDIA A100 80GB PCIe",
+    "accelerator_3_total_memory_GB": "79.44 GB",
+    "detected_cpu_threads": 192,
+    "max_usable_threads_per_gpu": 32,
+    "debug_prints": false,
+    "pin_memory": true
+}
